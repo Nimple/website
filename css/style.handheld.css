@@ -1,0 +1,9 @@
+@viewport {
+  width: 340px;
+  zoom: 1;
+}
+
+div#page {
+  width: 340px;
+  padding: 2px;
+}
