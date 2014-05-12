@@ -2,6 +2,7 @@
   require('../inc/header.php');
 ?>
 
+<div class="container">
       <h1>Allgemeine Gesch&auml;ftsbedingungen f&uuml;r die Nutzung der mobilen Dienste und Internetseiten der Appstronauten GbR</h1>
 
       <p>Mit der Software f&uuml;r mobile Endger&auml;te namens Nimple (nachfolgend jeweils App) der Appstronauten GbR (nachfolgend jeweils Appstronauten) wird Smartphone-Nutzern, die die App auf ihrem mobilen Endger&auml;t installiert haben (nachfolgend jeweils Nutzer), die M&ouml;glichkeit gegeben eigene Kontaktdaten zu verwalten und mit anderen Nutzern auszutauschen.</p>
@@ -74,6 +75,7 @@
       <p>(1)	Diese Vereinbarung unterliegt dem Recht der Bundesrepublik Deutschland.<br>
       (2)	Salvatorische Klausel:<br>
       Sollte eine oder mehrere Bestimmungen dieser Vereinbarung unwirksam sein oder werden, so wird die Wirksamkeit der Vereinbarung im &Uuml;brigen nicht davon ber&uuml;hrt.</p>
+</div>
 
 <?php
   require('../inc/footer.php');

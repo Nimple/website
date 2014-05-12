@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:400,300,300italic,400italic,500,500italic,700);
 
 //--- Path variables -----------------------------------------------------------
-$main-path : "/nimple";
+$main-path : "../";
 //--- Color variables ----------------------------------------------------------
 //----- Main Colors ------------------------------------------------------------
 $magenta-dark  : rgba(143,   0,  52, 1.0);
@@ -21,7 +21,6 @@ $bold   : 700;
 
 //--- Style definitions --------------------------------------------------------
 html {
-	//font-family: 'Roboto Slab', serif;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -32,13 +31,11 @@ body {
 .navbar {
 	background: $magenta-dark;
 	border-bottom: 0;
-	opacity: .95;
+	opacity: .90;
 	color: $txt-white;
-
 	.navbar-brand {
 		color: $txt-white;
 	}
-
 
 	.navbar-nav
 	{
@@ -49,8 +46,8 @@ body {
 			    -ms-transition: all .5s ease-in-out;
 			     -o-transition: all .5s ease-in-out;
 			        transition: all .5s ease-in-out;
-			font-size: 1.5em;
-			color: $txt-white;			
+			font-size: 1.2em;
+			color: $txt-white;
 			&:hover {
 				opacity: .45;
 				border-bottom: 3px solid white;
@@ -84,7 +81,7 @@ body {
 		}
 
 		h1 {
-			font-size: 5em;
+			font-size: 4em;
 			font-weight: $medium;
 			text-shadow: 0 0.06em 0.1em $black-alpha50;
 		}
@@ -156,7 +153,8 @@ body {
 }
 
 .page-footer {
-	background: $grey-light;
+	height: 120px;
+	position: absolute;
 	margin: 0;
 }
 
@@ -227,7 +225,7 @@ body {
 @media screen and (max-width: 1200px) { 
 	
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.0em;
 	}
 
 	.frame_iPhone {
