@@ -10,7 +10,7 @@
       <ul>
         <li><a href="/terms/">AGB</a></li>
         <li><a href="/disclaimer/">Datenschutzerkl&auml;rung</a></li>
-        <li><a href="/impressum/">Impressum</a></li>
+        <li><a href="/imprint/">Impressum</a></li>
       </ul>
 
 <?php
