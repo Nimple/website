@@ -13,7 +13,7 @@
 				</div>
 				<div class="media-body">
 					<h1 class="media-heading">Nimple</h1>
-					<h2>Networking is simple.</h2>
+					<h2>Networking Simple.</h2>
 				</div>
 			</div>
 
