@@ -10,7 +10,8 @@
   <div class="media-body">
     <h1 class="media-heading">1. Deine elektronische Visitenkarte</h1>
     <h2>
-        Gib deine Kontaktdaten ein und verbinde dich zu deinen sozialen Profilen (Facebook, Twitter, XING und LinkedIn). Deine Daten bleiben dabei nur auf deinem Gerät und werden nicht in der Cloud gespeichert.
+        Gib deine Kontaktdaten ein und verbinde dich zu deinen sozialen Profilen (Facebook, Twitter, XING und LinkedIn).<br><br>
+        Deine Daten bleiben dabei nur auf deinem Gerät und werden nicht in der Cloud gespeichert.
     </h2>
   </div>
   <div class="pull-right">
@@ -30,8 +31,8 @@
   <div class="media-body">
     <h1 class="media-heading">2. Dein QR-Code</h1>
     <h2>
-      Dein QR-Code wird automatisch aus deinen eingegebenen Daten generiert. Nur deine eingegebenen Daten sind enthalten.<br><br>
-      Zeige deinen QR-Code und Dein Gegenüber erhält darüber deine eingegebenen Kontaktdaten. Wenn du soziale Profile hinterlegt hast, werden diese auch übermittelt.<br><br>
+      Dein QR-Code wird automatisch aus deinen eingegebenen Daten generiert. Nur die eingegebenen Daten sind enthalten.<br><br>
+      Zeige deinen QR-Code und Dein Gegenüber erhält deine Informationen. Wenn du soziale Profile hinterlegt hast, werden diese auch übermittelt.<br><br>
       Hat dein Gegenüber die Nimple-App noch nicht installiert, können dein Code auch mit einem handeslüblichen QR-Code-Reader abgescannt und deine Daten übertragen werden.
     </h2>
   </div>
@@ -46,7 +47,7 @@
   <div class="media-body">
     <h1 class="media-heading">3. Scanne andere QR-Codes mit Nimple ein</h1>
     <h2>
-      In der Nimple-App kannst du auch den QR-Code einer kennengelernten Person einscannen. Mit nur einem Klick erhälst du über den QR-Code die elektronische Visitenkarte.
+      In der Nimple-App kannst du auch den QR-Code einer kennengelernten Person einscannen. Mit nur einem Klick erhälst du über den QR-Code die elektronische Visitenkarte.<br><br>
       Die eingescannten Daten werden in Nimple gespeichert und können jederzeit verwendet werden.
     </h2>
   </div>
@@ -65,8 +66,8 @@
     <h1 class="media-heading">4. Verbinde dich über soziale Netze oder speichere die Daten im Telefonbuch</h1>
     <h2>
       Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde dich direkt über Facebook, Twitter, XING oder LinkedIn mit deinem neuen Kontakt.<br><br>
-      Die Visitenkarte kannst du jederzeit bearbeiten, mit einem Klick in dein Telefonbuch des Smartphones abspeichern oder wieder löschen.<br><br>
-      Networking Simple, Nimple.
+      Die Visitenkarte kannst du nach Belieben bearbeiten, mit einem Klick in dein Telefonbuch des Smartphones abspeichern oder wieder löschen.<br><br>
+      Und es kann losgehen: Networking Simple, Nimple.
     </h2>
   </div>
   <div class="pull-right">
