@@ -41,10 +41,10 @@
 				
 				Ein alltägliches Szenario – Man lernt neue Leute auf einer Party, Messe, Geschäftsreise 
 				oder im Büro kennen und will Kontaktdaten austauschen: 
-				Aufwendig? 
-				Keine Visitenkarte zur Hand?
-				Gerne auch über soziale Netze wie Facebook und XING verbinden?
-				
+				<li>Aufwendig?</li> 
+				<li>Keine Visitenkarte zur Hand?</li> 
+				<li>Gerne auch über soziale Netze wie Facebook und XING verbinden?</li> 
+				</ul>
 				Die Nimple-App erleichtert den Austausch von Kontaktdaten. 
 				
 				Mittels QR-Code kann jeder Nutzer seine Wunschdaten inklusive soziale Profile ohne großen Aufwand 
