@@ -2,9 +2,7 @@
   $title = "Appstronauten";
   require('inc/header.php');
 ?>
-      
-      <meta http-equiv="refresh" content="0; URL=http://www.appstronauten.com/nimple">
-      
+
       <h1>Appstronauten</h1>
 
       <h2>Coming soon</h2>
