@@ -35,12 +35,21 @@
 			</div>
 
 			<section>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Handynummern und Visitenkarten abtippen oder mühsames Kontakte-Suchen in sozialen Netzen war gestern. 
+				Die Nimple-App ermöglicht es Kontaktdaten jeglicher Art über einen QR-Code weiterzugeben. 
+				Networking schnell und simple, Nimple.
+				
+				Ein alltägliches Szenario – Man lernt neue Leute auf einer Party, Messe, Geschäftsreise 
+				oder im Büro kennen und will Kontaktdaten austauschen: 
+				Aufwendig? 
+				Keine Visitenkarte zur Hand?
+				Gerne auch über soziale Netze wie Facebook und XING verbinden?
+				
+				Die Nimple-App erleichtert den Austausch von Kontaktdaten. 
+				
+				Mittels QR-Code kann jeder Nutzer seine Wunschdaten inklusive soziale Profile ohne großen Aufwand 
+				vom eigenen Smartphone an ein zweites übermitteln. Lästiges Abtippen von Visitenkarten 
+				oder lange Profilsuche auf Facebook gehören damit der Vergangenheit an.
 			</section>
 
 		</div>
