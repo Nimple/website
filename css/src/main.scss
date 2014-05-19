@@ -26,11 +26,12 @@ $bold   : 700;
 html {
 	margin-top: 1.5em;
 	font-family: 'Roboto', sans-serif;
-	background: $white;
 }
 
 body {
+	padding-top: 2em;
 	padding-bottom: 0;
+	background: $white;
 }
 
 h1 {
@@ -56,7 +57,12 @@ section {
 	color: $txt-grey;
 }
 
+.clear-fix {
+	clear: both;
+}
+
 .navbar {
+	width: 100%;
 	background: $magenta-dark;
 	border-bottom: 0;
 	opacity: .90;
@@ -67,6 +73,8 @@ section {
 
 	.navbar-nav
 	{
+		text-align: center;
+
 		li a {
 			border-bottom: 3px solid rgba(255, 255, 255, 0.0);
 			-webkit-transition: all .35s ease-out;
@@ -89,23 +97,22 @@ section {
 	}
 }
 
+.container {
+	padding-top: 3em;
+}
 
 .page-header {
 	margin: 0;
-	height: 65em;
-	background-position: 0 0;
-	background-size: 100% 100%;
-	overflow: hidden;
 	border: 0;
 
 	.left-side {
-		width: 50%;
 		float: left;
+		width: 60%;
 	}
 
 	.right-side {
-		width: 50%;
 		float: left;
+		position: relative;
 	}
 
 	#logo {
@@ -129,6 +136,7 @@ section {
 		h1 {
 			font-size: 4em;
 			font-weight: $medium;
+			color: $magenta-dark;
 		}
 
 		h2 {
@@ -141,12 +149,13 @@ section {
 .jumbotron {
 	background: #FFF;
 	margin: 0;
-	overflow: hidden;
 	height: 40em;
-	
+	font-size: 0.8em;
+
 	h1 {
 		font-weight: 600;
 		text-shadow: 0 0.06em 0.1em $black-alpha20;
+		font-size: 3em;
 	}
 
 	h2 {
@@ -154,16 +163,13 @@ section {
 	}
 
 	.media-object {
-		margin: 2em;
-	}
-
-	.media-body {
-		width: auto;
+		padding: 2em;
 	}
 }
 
 .explanatory01 {
 	background: rgba(242, 126, 126, 0.1);
+	overflow: hidden;
 
 	.pull-right {
 		img {
@@ -174,19 +180,20 @@ section {
 
 .explanatory02 {
 	background: rgba(234, 144, 129, 0.3);
+	overflow: hidden;
 
 	.pull-left {
 		img {
 			width: 90%;
 			position: relative;
 			top: 0;
-
 		}
 	}
 }
 
 .explanatory03 {
 	background: rgba(198, 52, 87, 0.3);
+	overflow: hidden;
 
 	.pull-right {
 		img {
@@ -200,6 +207,42 @@ section {
 	height: 120px;
 	position: absolute;
 	margin: 0;
+	display: none;
+}
+
+.social-media {
+	margin: 0;
+	padding: 0.1em 0 0 0;
+
+	ul {
+		margin: 0;
+		padding: 0 0 0 0em;
+
+		li {
+			float: left;
+			list-style: none;
+
+			img {
+				width: 5em;
+				padding: 1em 1.2em 1.5em 0;
+				opacity: .4;
+				-webkit-transition: all .15s ease-in-out;
+				   -moz-transition: all .15s ease-in-out;
+				    -ms-transition: all .15s ease-in-out;
+				     -o-transition: all .15s ease-in-out;
+				        transition: all .15s ease-in-out;
+
+				&:hover {
+					opacity: 1.0;
+					-webkit-transition: all .15s ease-in-out;
+					   -moz-transition: all .15s ease-in-out;
+					    -ms-transition: all .15s ease-in-out;
+					     -o-transition: all .15s ease-in-out;
+					        transition: all .15s ease-in-out;
+				}
+			}
+		}
+	}
 }
 
 .badge {
@@ -232,25 +275,28 @@ section {
 .frame_Nexus5 {
 	$size : 22em;
 	
-	position: absolute;
-	right: 10em;
-	top: 12em;
+	position: relative;
+	right: -70.00em;
+	top: 5.00em;
 	display: none;
 	background: url("../img/phone_frames/nexus5.png");
 	background-position: 0 0;
 	background-size: 100% 100%;
 	width: $size;
-	height: $size * 1.981605;
+	height: $size * 1.981;
 
 	.frameScreenshot {
-		width: $size * 0.90301;
-		height: $size  * 1.8101265;
+		width: $size * 0.9080;
+		height: $size  * 1.8101;
 
 		img {
 			padding-top: $size * 0.15;
-			margin-left: $size * 0.046;
+			margin-left: $size * 0.045;
 			width: inherit;
 			height: inherit;
+			position: relative;
+			top: -56.001em;
+			left: -0.01em;
 		}
 	}
 }
@@ -259,20 +305,23 @@ section {
 	$size : 20em;
 
 	display: none;
-	position: absolute;
-	right: 30em;
-	top: 16em;
+	position: relative;
+	right: -55.00em;
+	top: -35.00em;
 	background: url("../img/phone_frames/iPhone5s.png");
 	background-position: 0 0;
 	background-size: 100% 100%;
 	width: $size;
-	height: $size * 2.117829;
+	height: $size * 2.117;
 
 	.frameScreenshot {
-		width: $size * 0.8418604;
-		height: $size  * 1.805710102;
+		width: $size * 0.8428;
+		height: $size  * 1.8067;
 
 		img {
+			position: relative;
+			top: -12.5500em;
+			left: 0.0500em;
 			padding-top: $size * 0.308;
 			margin-left: $size * 0.08;
 			width: inherit;
@@ -299,22 +348,6 @@ section {
 		z-index: -99;
 	}
 
-	.navbar {
-		background: $magenta-dark;
-		opacity: 1.0; 
-	}
-
-	.navbar-nav
-	{
-		li a {
-			padding: 0.5em 2em;
-		}
-	}
-
-	.page-header {
-		padding-top: 5em;
-	}
-
 	.jumbotron {
 		height: auto;
 		.media-body {
@@ -327,13 +360,59 @@ section {
 
 	.page-header {
 		margin: 0;
-		height: 35em;
+
+		section {
+			padding: 2em 0;
+		}
+
+		.left-side {
+			width: 100%;
+		}
+
+		.right-side {
+			position: relative;
+		}
+
+		#logo {
+			width: 80px;
+			margin-right: 1em;
+		}
+
+		.media-body {
+			vertical-align: middle;
+			padding-top: 0.5em;
+			
+			h1 {
+				font-size: 3em;
+				padding: 0 0 0.1em 0;
+				margin: 0;
+			}
+			h2 {
+				font-size: 1em;
+				padding: 0;
+				margin: 0;
+			}
+		}
+
+		.container {
+			padding-top: 1em;
+		}
 	}
+	
+	.badges {
+		width: 100%;
 
-
-	.badge {
-		padding: 1.5em 1em 0 0;
-		background: transparent;
-	} 
-
+		.badge {
+			-webkit-transform: scale(0.9);
+			   -moz-transform: scale(0.9);
+			    -ms-transform: scale(0.9);
+			     -o-transform: scale(0.9);
+			        transform: scale(0.9);
+			width: 140px;
+			position: relative;
+			float: left;
+			padding: 0.5em 0.5em 0 0;
+		}
+		
+	}
 }

@@ -22,17 +22,28 @@
 					<!-- Play Store badge -->
 					<a href="https://play.google.com/store/apps/details?id=de.nimple">
 						<img alt="Jetzt bei Google Play"
-								 src="../img/badges/playstore/de_generic_rgb_wo_45.png"/>
+							 src="../img/badges/playstore/de_generic_rgb_wo_45.png"/>
 					</a>
 				</div>
 				<div class="badge">
 					<!-- App Store badge -->
 					<a href="https://itunes.apple.com/de/app/nimple/id847059589">
 						<img alt="Laden im App Store"
-								 src="../img/badges/appstore/Download_on_the_App_Store_Badge_DE_135x40.svg">
+							 src="../img/badges/appstore/Download_on_the_App_Store_Badge_DE_135x40.svg">
 					</a>
 				</div>
 			</div>
+			<div class="clear-fix"></div>
+
+			<div class="social-media">
+				<ul>
+					<li><a target="_blank" href="https://www.facebook.com/nimpleapp"><img src="../img/social/ic_round_facebook.png" alt="facebook"></a></li>
+					<li><a target="_blank" href="https://twitter.com/nimpleapp"><img src="../img/social/ic_round_twitter.png" alt="twitter"></a></li>
+					<li><a target="_blank" href="@TODO"><img src="../img/social/ic_round_xing.png" alt="Xing"></a></li>
+					<li><a target="_blank" href="@TODO"><img src="../img/social/ic_round_linkedin.png" alt="LinkedIn"></a></li>
+				</ul>
+			</div>
+			<div class="clear-fix"></div>
 
 			<section>
 				Handynummern und Visitenkarten abtippen oder mühsames Kontakte-Suchen in sozialen Netzen war gestern. 
@@ -59,13 +70,13 @@
 		<div class="rigth-side">
 			<div class="frame_Nexus5">
 				<div class="frameScreenshot">
-					<img src="../img/screenshots/android/edit-fields.png" alt="Nimple Android Kontaktdaten Eingabe">
+					<img src="../img/screenshots/android/code.png" alt="Nimple Android Kontaktdaten Eingabe">
 				</div>
 			</div>
 
 			<div class="frame_iPhone">
 				<div class="frameScreenshot">
-					<img src="../img/screenshots/iOS/contacts.png" alt="Nimple iOS Kontakte">
+					<img src="../img/screenshots/iOS/card.png" alt="Nimple iOS Kontakte">
 				</div>
 			</div>
 		</div>
