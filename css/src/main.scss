@@ -8,6 +8,7 @@ $magenta-dark  : rgba(143,   0,  52, 1.0);
 $magenta-light : rgba(191,   0,  69, 1.0);
 $grey-light    : rgba(240, 240, 240, 1.0);
 $white 		   : rgba(250, 250, 250, 1.0);
+$white-alpha70 : rgba(250, 250, 250, 0.7);
 $black-alpha50 : rgba( 15,  15,  15, 0.5);
 $black-alpha20 : rgba( 15,  15,  15, 0.2);
 
@@ -55,6 +56,10 @@ section {
 	font-size: 1.2em;
 	text-align: justify;
 	color: $txt-grey;
+
+	span {
+		color: $magenta-light;
+	}
 }
 
 .clear-fix {
@@ -79,9 +84,9 @@ section {
 			border-bottom: 3px solid rgba(255, 255, 255, 0.0);
 			-webkit-transition: all .35s ease-out;
 			   -moz-transition: all .35s ease-out;
-			    -ms-transition: all .35s ease-out;
-			     -o-transition: all .35s ease-out;
-			        transition: all .35s ease-out;
+				-ms-transition: all .35s ease-out;
+				 -o-transition: all .35s ease-out;
+					transition: all .35s ease-out;
 			font-size: 1.2em;
 			color: $txt-white;
 			&:hover {
@@ -89,9 +94,9 @@ section {
 				border-bottom: 3px solid white;
 				-webkit-transition: all .1s ease-in;
 				   -moz-transition: all .1s ease-in;
-				    -ms-transition: all .1s ease-in;
-				     -o-transition: all .1s ease-in;
-				        transition: all .1s ease-in;
+					-ms-transition: all .1s ease-in;
+					 -o-transition: all .1s ease-in;
+						transition: all .1s ease-in;
 			}
 		}
 	}
@@ -165,6 +170,14 @@ section {
 	.media-object {
 		padding: 2em;
 	}
+
+}
+
+.scroll {
+	background: url("../img/pictures/jumbotron-01.jpg");
+	background-size: 100% auto;
+	background-position: 0 42% fixed;
+	height: 500px;
 }
 
 .explanatory01 {
@@ -204,10 +217,21 @@ section {
 }
 
 .page-footer {
-	height: 120px;
-	position: absolute;
+	height: 7%;
+	position: fixed;
+	bottom: 0;
 	margin: 0;
-	display: none;
+	width: 100%;
+	background-color: $white-alpha70;
+
+	.pagination {
+
+		li a {
+			color: $txt-grey;
+			background: 0;
+			border: 0;
+		}
+	}
 }
 
 .social-media {
@@ -228,17 +252,17 @@ section {
 				opacity: .4;
 				-webkit-transition: all .15s ease-in-out;
 				   -moz-transition: all .15s ease-in-out;
-				    -ms-transition: all .15s ease-in-out;
-				     -o-transition: all .15s ease-in-out;
-				        transition: all .15s ease-in-out;
+					-ms-transition: all .15s ease-in-out;
+					 -o-transition: all .15s ease-in-out;
+						transition: all .15s ease-in-out;
 
 				&:hover {
 					opacity: 1.0;
 					-webkit-transition: all .15s ease-in-out;
 					   -moz-transition: all .15s ease-in-out;
-					    -ms-transition: all .15s ease-in-out;
-					     -o-transition: all .15s ease-in-out;
-					        transition: all .15s ease-in-out;
+						-ms-transition: all .15s ease-in-out;
+						 -o-transition: all .15s ease-in-out;
+							transition: all .15s ease-in-out;
 				}
 			}
 		}
@@ -250,9 +274,9 @@ section {
 	background: transparent;
 	-webkit-transition: all .6s ease-out;
 	   -moz-transition: all .6s ease-out;
-	    -ms-transition: all .6s ease-out;
-	     -o-transition: all .6s ease-out;
-	        transition: all .6s ease-out;
+		-ms-transition: all .6s ease-out;
+		 -o-transition: all .6s ease-out;
+			transition: all .6s ease-out;
 	img {
 		height: 4em;
 	}
@@ -260,14 +284,14 @@ section {
 	&:hover {
 		-webkit-transition: all .2s ease-out;
 		   -moz-transition: all .2s ease-out;
-		    -ms-transition: all .2s ease-out;
-		     -o-transition: all .2s ease-out;
-		        transition: all .2s ease-out;
+			-ms-transition: all .2s ease-out;
+			 -o-transition: all .2s ease-out;
+				transition: all .2s ease-out;
 		-webkit-transform: scale(1.1);
 		   -moz-transform: scale(1.1);
-		    -ms-transform: scale(1.1);
-		     -o-transform: scale(1.1);
-		        transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			 -o-transform: scale(1.1);
+				transform: scale(1.1);
 	}
 } 
 
@@ -295,8 +319,8 @@ section {
 			width: inherit;
 			height: inherit;
 			position: relative;
-			top: -56.001em;
-			left: -0.01em;
+			top: $size * -2.5705;
+			left: $size * -0.001;
 		}
 	}
 }
@@ -315,15 +339,15 @@ section {
 	height: $size * 2.117;
 
 	.frameScreenshot {
-		width: $size * 0.8428;
-		height: $size  * 1.8067;
+		width: $size * 0.8450;
+		height: $size  * 1.8070;
 
 		img {
 			position: relative;
-			top: -12.5500em;
-			left: 0.0500em;
+			top: $size * -0.67250;
+			left: $size * 0.010;
 			padding-top: $size * 0.308;
-			margin-left: $size * 0.08;
+			margin-left: $size * 0.075;
 			width: inherit;
 			height: inherit;
 		}
@@ -405,9 +429,9 @@ section {
 		.badge {
 			-webkit-transform: scale(0.9);
 			   -moz-transform: scale(0.9);
-			    -ms-transform: scale(0.9);
-			     -o-transform: scale(0.9);
-			        transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				 -o-transform: scale(0.9);
+					transform: scale(0.9);
 			width: 140px;
 			position: relative;
 			float: left;
