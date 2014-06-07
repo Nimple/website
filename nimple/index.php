@@ -38,8 +38,8 @@
 				<ul>
 					<li><a target="_blank" href="https://www.facebook.com/nimpleapp"><img src="../img/social/ic_round_facebook.png" alt="facebook"></a></li>
 					<li><a target="_blank" href="https://twitter.com/nimpleapp"><img src="../img/social/ic_round_twitter.png" alt="twitter"></a></li>
-					<li><a target="_blank" href="@TODO"><img src="../img/social/ic_round_xing.png" alt="Xing"></a></li>
-					<li><a target="_blank" href="@TODO"><img src="../img/social/ic_round_linkedin.png" alt="LinkedIn"></a></li>
+					<li><a target="_blank" href="https://www.xing.com/companies/appstronautengbr"><img src="../img/social/ic_round_xing.png" alt="Xing"></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/company/appstronauten-gbr"><img src="../img/social/ic_round_linkedin.png" alt="LinkedIn"></a></li>
 					<li><a target="_blank" href="https://plus.google.com/b/100825886194470670246/100825886194470670246"><img src="../img/social/ic_round_googleplus.png" alt="LinkedIn"></a></li>
 				</ul>
 			</div>
