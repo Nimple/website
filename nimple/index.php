@@ -3,7 +3,7 @@
 ?>
 
 <header class="page-header">
-	<div class="container" id="skrollr-body">
+	<div class="container">
 		<!-- left side -->
 		<div class="left-side">
 			<div class="media">
@@ -49,8 +49,8 @@
 				Handynummern und Visitenkarten abtippen oder mühsames Kontakte-Suchen in sozialen Netzen war gestern. 
 				Die Nimple-App ermöglicht es Kontaktdaten jeglicher Art über einen QR-Code weiterzugeben.
 				<br><br>
-				Ein alltägliches Szenario – <b>Du lernt neue Leute auf einer Party, Messe, Geschäftsreise 
-				oder im Büro kennen</b> und will <b>Kontaktdaten austauschen:</b><br><br>
+				Ein alltägliches Szenario – <b>Du lernst neue Leute auf einer Party, Messe, Geschäftsreise 
+				oder im Büro kennen</b> und willst <b>Kontaktdaten austauschen:</b><br><br>
 				<ul>
 					<li><b>Du hast keine Visitenkarte zur Hand?</b></li>
 					<li><b>Willst dich gerne auch über soziale Netze wie Facebook und XING verbinden?</b></li>
@@ -61,24 +61,24 @@
 				Profile ohne großen Aufwand vom eigenen Smartphone an ein anderes übermitteln. Lästiges Abtippen von Visitenkarten 
 				oder lange Profilsuche auf Facebook gehören damit der Vergangenheit an.
 				<br><br>
-				<span><b>Networking Simple mit Nimple!</b></span>
+				<span class="catchphrase"><b>Networking Simple mit Nimple!</b></span>
 			</section>
 
 		</div>
 
 		<!-- right side -->
-		<div class="rigth-side">
-			<div class="frame_Nexus5">
-				<div class="frameScreenshot">
-					<img src="../img/screenshots/android/code.png" alt="Nimple Android Kontaktdaten Eingabe">
+		<div class="right-side">
+
+			<div class="phone-frame-nexus">
+				<div class="screenshot">
 				</div>
 			</div>
 
-			<div class="frame_iPhone">
-				<div class="frameScreenshot">
-					<img src="../img/screenshots/iOS/card.png" alt="Nimple iOS Kontakte">
+			<div class="phone-frame-iphone">
+				<div class="screenshot">
 				</div>
 			</div>
+
 		</div>
 
 	<!-- container end -->

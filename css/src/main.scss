@@ -4,13 +4,16 @@
 $main-path : "../";
 //--- Color variables ----------------------------------------------------------
 //----- Main Colors ------------------------------------------------------------
-$magenta-dark  : rgba(143,   0,  52, 1.0);
-$magenta-light : rgba(191,   0,  69, 1.0);
-$grey-light    : rgba(240, 240, 240, 1.0);
-$white 		   : rgba(250, 250, 250, 1.0);
-$white-alpha70 : rgba(250, 250, 250, 0.7);
-$black-alpha50 : rgba( 15,  15,  15, 0.5);
-$black-alpha20 : rgba( 15,  15,  15, 0.2);
+$magenta-dark          : rgba(143,   0,  52, 1.0);
+$magenta-light         : rgba(191,   0,  69, 1.0);
+$magenta-light-alpha20 : rgba(191,   0,  69, 0.2);
+$grey-light            : rgba(240, 240, 240, 1.0);
+$grey-dark-alpha30     : rgba(190, 190, 190, 0.3);
+$white 		           : rgba(250, 250, 250, 1.0);
+$white-alpha70         : rgba(250, 250, 250, 0.7);
+$white-alpha90         : rgba(250, 250, 250, 0.9);
+$black-alpha50         : rgba( 15,  15,  15, 0.5);
+$black-alpha20         : rgba( 15,  15,  15, 0.2);
 
 //----- Text Colors ------------------------------------------------------------
 $txt-white : rgba(250, 250, 250, 1.0);
@@ -25,23 +28,25 @@ $bold   : 700;
 
 //--- Style definitions --------------------------------------------------------
 html {
-	margin-top: 1.5em;
 	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	height: 100%;
+	width: 100%;
 }
 
 body {
-	padding-top: 2em;
-	padding-bottom: 0;
+	height: 100%;
+	width: 100%;
 	background: $white;
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: $medium;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: $light;
 	opacity: .7;
 	color: $magenta-dark;
@@ -53,12 +58,15 @@ p {
 }
 
 section {
-	font-size: 1.2em;
 	text-align: justify;
 	color: $txt-grey;
 
 	span {
 		color: $magenta-light;
+	}
+
+	.catchphrase {
+		font-size: 1.5em;
 	}
 }
 
@@ -76,6 +84,43 @@ section {
 		color: $txt-white;
 	}
 
+	.navbar-collapse {
+		border: 0;
+	}
+
+	.navbar-toggle {
+		border: 0;
+
+		&:hover, &:focus {
+			background: $magenta-light;
+		}
+
+
+	}
+
+	.navbar-brand {
+		margin: 0;
+		img {
+			height: 100%;
+			width: auto;
+		}
+
+		-webkit-transition: all .35s ease-out;
+		   -moz-transition: all .35s ease-out;
+			-ms-transition: all .35s ease-out;
+			 -o-transition: all .35s ease-out;
+				transition: all .35s ease-out;
+		color: $txt-white;
+		&:hover {
+			opacity: .45;
+			-webkit-transition: all .1s ease-in;
+			   -moz-transition: all .1s ease-in;
+				-ms-transition: all .1s ease-in;
+				 -o-transition: all .1s ease-in;
+					transition: all .1s ease-in;
+		}
+	}
+
 	.navbar-nav
 	{
 		text-align: center;
@@ -88,6 +133,7 @@ section {
 				 -o-transition: all .35s ease-out;
 					transition: all .35s ease-out;
 			font-size: 1.2em;
+			padding-top: 1.2em;
 			color: $txt-white;
 			&:hover {
 				opacity: .45;
@@ -102,22 +148,164 @@ section {
 	}
 }
 
+
+.guidance {
+	height: 100%;
+
+	.numberCircle {
+	    border-radius: 50%;
+	    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+		
+		float: left;
+
+	    width: 25px;
+	    height: 25px;
+	    padding: 12px;
+	    margin-right: 2%;
+	    
+	    border: 2px solid $magenta-dark;
+	    text-align: center;
+	    font-weight: bold;
+	    font: 1.6em Arial, sans-serif;
+	}
+
+	.pull-left:nth-of-type(1) {
+		padding: 1.5%;
+	}
+
+	.pull-left:nth-of-type(2) {
+		$bgr-white: rgba(255, 255, 255, .95);
+
+		padding: 1% 2.5%;
+		margin-top: 2%;
+		width: 65%;
+		background: $bgr-white;
+		border-radius: 1em;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.guide01 {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
+	}
+
+	.guide02 {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
+	}
+
+	.guide03 {
+		background: url("../img/guidance/guidance-03.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
+	}
+
+	.guide04 {
+
+	}
+
+	.container h1 {
+		font-size: 3em;
+		padding-bottom: 2%;
+		line-height: 1.2;
+
+		&:after {
+			clear: both;
+		}
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+}
+
+a.facebook {
+	color: #4965A0;
+}
+a.twitter {
+	color: #55ACEE;
+}
+a.xing {
+	color: #006464;
+}
+a.linkedin {
+	color: #2387BD;
+}
+
 .container {
-	padding-top: 3em;
+	padding-top: 5%;
+	width: 80%;
+	height: 100%;
+	margin-bottom: 10%;
 }
 
 .page-header {
 	margin: 0;
 	border: 0;
+	width: 100%;
+	height: 100%;
 
 	.left-side {
 		float: left;
 		width: 60%;
+		height: 100%;
 	}
 
 	.right-side {
+		height: 100%;
+		width: 40%;
 		float: left;
-		position: relative;
+		padding: 2%;
+		text-align: center;
+
+		.phone-frame-nexus {
+			display: none;
+			width: 90%;
+			height: 90%;
+			background: url("../img/phone_frames/nexus5.png");
+			background-size: auto 80%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+
+			.screenshot {
+				background: url("../img/screenshots/android/code.png");
+				width: 100%;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: auto 67%;
+				background-position: 50% 50%;
+			}
+		}
+
+		.phone-frame-iphone {
+			display: none;
+			background-color: red;
+			position: relative;
+			top: -90%;
+			left: 50%;
+			width: 80%;
+			height: 80%;
+			z-index: -1;
+			background: url("../img/phone_frames/iPhone5s.png");
+			background-size: auto 80%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+
+			.screenshot {
+				background: url("../img/screenshots/iOS/card.png");
+				width: 100%;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: auto 58%;
+				background-position: 50% 50%;
+			}
+		}
 	}
 
 	#logo {
@@ -131,7 +319,8 @@ section {
 	}
 
 	.container {
-		padding-top: 5em;
+		padding-top: 5%;
+		padding-bottom: 5%;
 
 		h1, h2 {
 			font-family: 'Roboto', sans-serif;
@@ -154,13 +343,12 @@ section {
 .jumbotron {
 	background: #FFF;
 	margin: 0;
-	height: 40em;
-	font-size: 0.8em;
+	height: 40%;
 
 	h1 {
 		font-weight: 600;
 		text-shadow: 0 0.06em 0.1em $black-alpha20;
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	h2 {
@@ -171,13 +359,6 @@ section {
 		padding: 2em;
 	}
 
-}
-
-.scroll {
-	background: url("../img/pictures/jumbotron-01.jpg");
-	background-size: 100% auto;
-	background-position: 0 42% fixed;
-	height: 500px;
 }
 
 .explanatory01 {
@@ -217,19 +398,47 @@ section {
 }
 
 .page-footer {
-	height: 7%;
-	position: fixed;
+	height: 10%;
 	bottom: 0;
 	margin: 0;
 	width: 100%;
-	background-color: $white-alpha70;
+	background-color: $white-alpha90;
+	border-top: 1px solid $grey-dark-alpha30;
+
+	.container {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 
 	.pagination {
+		margin: 0.5% 0 3% 0;
+		padding: 0;
 
 		li a {
 			color: $txt-grey;
 			background: 0;
+			border-radius: 0;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
 			border: 0;
+			border-bottom: 1px solid transparent;
+			-webkit-transition: all .5s ease-out;
+			   -moz-transition: all .5s ease-out;
+			    -ms-transition: all .5s ease-out;
+			     -o-transition: all .5s ease-out;
+			        transition: all .5s ease-out;
+
+		        &:hover {
+		        	border-bottom: 1px solid $magenta-light;
+		        	color: $magenta-light;
+					-webkit-transition: all .35s ease-out;
+					   -moz-transition: all .35s ease-out;
+					    -ms-transition: all .35s ease-out;
+					     -o-transition: all .35s ease-out;
+					        transition: all .35s ease-out;
+		        }
 		}
 	}
 }
@@ -293,150 +502,237 @@ section {
 			 -o-transform: scale(1.1);
 				transform: scale(1.1);
 	}
-} 
-
-
-.frame_Nexus5 {
-	$size : 22em;
-	
-	position: relative;
-	right: -70.00em;
-	top: 5.00em;
-	display: none;
-	background: url("../img/phone_frames/nexus5.png");
-	background-position: 0 0;
-	background-size: 100% 100%;
-	width: $size;
-	height: $size * 1.981;
-
-	.frameScreenshot {
-		width: $size * 0.9080;
-		height: $size  * 1.8101;
-
-		img {
-			padding-top: $size * 0.15;
-			margin-left: $size * 0.045;
-			width: inherit;
-			height: inherit;
-			position: relative;
-			top: $size * -2.5705;
-			left: $size * -0.001;
-		}
-	}
 }
 
-.frame_iPhone {
-	$size : 20em;
+//------------------------------------------------------------------------------
+@media screen and (max-width: 1200px) {
 
-	display: none;
-	position: relative;
-	right: -55.00em;
-	top: -35.00em;
-	background: url("../img/phone_frames/iPhone5s.png");
-	background-position: 0 0;
-	background-size: 100% 100%;
-	width: $size;
-	height: $size * 2.117;
-
-	.frameScreenshot {
-		width: $size * 0.8450;
-		height: $size  * 1.8070;
-
-		img {
-			position: relative;
-			top: $size * -0.67250;
-			left: $size * 0.010;
-			padding-top: $size * 0.308;
-			margin-left: $size * 0.075;
-			width: inherit;
-			height: inherit;
-		}
-	}
+body {
+	font-size: 10pt;
+	height: auto;
 }
 
+.page-header {
+	margin: 0;
+	border: 0;
+	width: 100%;
+	height: auto;
 
+	.left-side {
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
 
-@media screen and (max-width: 1200px) { 
+	.right-side {
+		height: 100%;
+		width: 0%;
+		float: left;
+		padding: 2%;
+		text-align: center;
+
+		.phone-frame-nexus {
+			opacity: 0;
+		}
+
+		.phone-frame-iphone {
+			opacity: 0;
+		}
+	}
+
+	#logo {
+		width: 50px;
+		margin-right: 1em;
+	}
 	
-	h2 {
-		font-size: 1.0em;
+	.media {
+		margin: 5% 0;
 	}
 
-	.frame_iPhone {
-		opacity: .0;
-		z-index: -99;
-	}
-
-	.frame_Nexus5 {
-		opacity: .0;
-		z-index: -99;
-	}
-
-	.jumbotron {
-		height: auto;
-		.media-body {
-			width: 100%;
-		}
-		img {
-			display: none;
-		}
-	}
-
-	.page-header {
+	.media-body {
+		padding: 0;
 		margin: 0;
+		vertical-align: middle;
+	}
 
-		section {
-			padding: 2em 0;
+	.container {
+		padding-top: 20%;
+		padding-bottom: 5%;
+
+		h1, h2 {
+			font-family: 'Roboto', sans-serif;
+			color: $txt-black;
+			font-size: 1.5em;
+			padding: 0;
+			margin: 0;
 		}
 
-		.left-side {
-			width: 100%;
+		h1 {
+			font-size: 2em;
+			font-weight: $medium;
+			color: $magenta-dark;
 		}
 
-		.right-side {
-			position: relative;
-		}
-
-		#logo {
-			width: 80px;
-			margin-right: 1em;
-		}
-
-		.media-body {
-			vertical-align: middle;
-			padding-top: 0.5em;
-			
-			h1 {
-				font-size: 3em;
-				padding: 0 0 0.1em 0;
-				margin: 0;
-			}
-			h2 {
-				font-size: 1em;
-				padding: 0;
-				margin: 0;
-			}
-		}
-
-		.container {
-			padding-top: 1em;
+		h2 {
+			font-weight: $light;
+			opacity: .7;
 		}
 	}
-	
-	.badges {
+}
+
+.badge {
+	display: inline;
+
+	a img {
+		height: 3em;
+		margin: 2% 0 0 3%;
+	}
+
+	padding: 0;
+	background: transparent;
+	-webkit-transition: all .6s ease-out;
+	   -moz-transition: all .6s ease-out;
+		-ms-transition: all .6s ease-out;
+		 -o-transition: all .6s ease-out;
+			transition: all .6s ease-out;
+	img {
+		height: 4em;
+	}
+
+	&:hover {
+		-webkit-transition: all .2s ease-out;
+		   -moz-transition: all .2s ease-out;
+			-ms-transition: all .2s ease-out;
+			 -o-transition: all .2s ease-out;
+				transition: all .2s ease-out;
+		-webkit-transform: scale(1.1);
+		   -moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			 -o-transform: scale(1.1);
+				transform: scale(1.1);
+	}
+}
+
+.social-media {
+	margin: 0;
+	padding: 0.1em 0 0 0;
+
+	ul {
+		margin: 0;
+		padding: 0 0 0 0em;
+
+		li {
+			list-style: none;
+			width: 20%;
+
+			a img {
+				width: 80%;
+				padding: 20% 2% 50% 2%;
+				margin: 0;
+			}
+		}
+	}
+}
+
+section {
+	text-align: left;
+	.catchphrase b {
+		text-align: left;
+	}
+}
+
+.container {
+	padding-top: 15%;
+}
+
+.page-footer {
+	li {
+		width: 100%;
+		display: block;
+	}
+}
+
+.guidance {
+	font-size: 80%;
+
+	.numberCircle {
+	    border-radius: 50%;
+	    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+		
+		float: left;
+
+	    width: 16px;
+	    height: 16px;
+	    padding: 8px;
+	    margin-right: 5%;
+	    
+	    border: 2px solid $magenta-dark;
+	    text-align: center;
+	    font-weight: bold;
+	    font: 1.6em Arial, sans-serif;
+	}
+
+	.pull-left:nth-of-type(1) {
+		padding: 1.5%;
 		width: 100%;
 
-		.badge {
-			-webkit-transform: scale(0.9);
-			   -moz-transform: scale(0.9);
-				-ms-transform: scale(0.9);
-				 -o-transform: scale(0.9);
-					transform: scale(0.9);
-			width: 140px;
-			position: relative;
-			float: left;
-			padding: 0.5em 0.5em 0 0;
+		img {
+			width: 20%;
 		}
-		
 	}
+
+	.pull-left:nth-of-type(2) {
+		$bgr-white: rgba(255, 255, 255, .95);
+
+		float: right;
+		padding: 3% 5%;
+		margin-top: 2%;
+		width: 80%;
+		background: $bgr-white;
+		border-radius: 1em;
+		line-height: 2em;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.guide01 {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
+	}
+
+	.guide02 {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
+	}
+
+	.guide03 {
+		background: url("../img/guidance/guidance-03.jpg");
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 50%;
+	}
+
+	.guide04 {
+
+	}
+
+	.container h1 {
+		font-size: 2em;
+		padding-bottom: 2%;
+		line-height: 1.2;
+
+		&:after {
+			clear: both;
+		}
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+}
+
 }

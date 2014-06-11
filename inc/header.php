@@ -19,8 +19,9 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/vendor/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../css/vendor/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/vendor/bootstrap/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../css/vendor/fotorama/fotorama.css">
 		<link rel="stylesheet" href="../css/main.css">
 
 		<link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
@@ -28,6 +29,7 @@
 
 		<script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<script src="../js/vendor/jquery-1.11.0.min.js"></script>
+		<script async src="../js/vendor/fotorama.js"></script>
 		<script async src="../js/vendor/bootstrap.min.js"></script>
 		<script async src="../js/vendor/skrollr.min.js"></script>
 		<script async src="../js/main.js"></script>

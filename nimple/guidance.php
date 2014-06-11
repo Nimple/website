@@ -2,6 +2,80 @@
   require('../inc/header.php');
 ?>
 
+<div class="fotorama"
+  data-width="100%"
+  data-height="90%"
+  data-max-width="100%">
+
+  <div class="guidance">
+    <div class="container guide01">
+      <div class="pull-left">
+        <img src="../img/guidance/edit.png" alt="Icon: Daten eingeben">
+      </div>
+      <div class="pull-left">
+        <h2 class="numberCircle">1</h2>
+        <h1>Deine elektronische Visitenkarte</h1>
+        <p>
+          Gib deine Kontaktdaten ein und verbinde dich zu deinen sozialen Profilen auf <a class="facebook" href="http://www.facebook.com">facebook</a>, <a class="twitter" href="http://www.twitter.com">twitter</a>,
+          <a class="xing" href="http://www.xing.com">XING</a> und <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>. Deine Daten bleiben dabei nur auf deinem Gerät und werden nicht in der Cloud gespeichert.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="guidance">
+    <div class="container guide02">
+      <div class="pull-left">
+        <img src="../img/guidance/qr.png" alt="Icon: QR Code">
+      </div>
+      <div class="pull-left">
+        <h2 class="numberCircle">2</h2>
+        <h1>Dein QR-Code</h1>
+        <p>
+          Dein QR-Code wird automatisch aus deinen eingegebenen Daten generiert. Nur die eingegebenen Daten sind enthalten.
+          Zeige deinen QR-Code und Dein Gegenüber erhält deine Informationen. Wenn du soziale Profile hinterlegt hast, werden diese auch übermittelt.
+          Hat dein Gegenüber die Nimple-App noch nicht installiert, können dein Code auch mit einem handeslüblichen QR-Code-Reader abgescannt und deine Daten übertragen werden.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="guidance">
+    <div class="container guide03">
+      <div class="pull-left">
+        <img src="../img/guidance/cam.png" alt="Icon: Scannen">
+      </div>
+      <div class="pull-left">
+        <h2 class="numberCircle">3</h2>
+        <h1>QR-Codes Scannen</h1>
+        <p>
+          Mit der Nimple-App kannst du QR-Codes von kennengelernten Person einscannen. Mit nur einem Klick erhälst du über den QR-Code deren elektronische Visitenkarten.
+          Die eingescannten Daten werden in Nimple gespeichert und können jederzeit verwendet werden.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="guidance">
+    <div class="container guide04">
+      <div class="pull-left">
+        <img src="../img/guidance/contacts.png" alt="Icon: Kontakte">
+      </div>
+      <div class="pull-left">
+        <h2 class="numberCircle">4</h2>
+        <h1>Sozial vernetzen</h1>
+        <p>
+          Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde dich direkt über <a class="facebook" href="http://www.facebook.com">facebook</a>, <a class="twitter" href="http://www.twitter.com">twitter</a>,
+          <a class="xing" href="http://www.xing.com">XING</a> oder <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a> mit deinem neuen Kontakt.
+          Die Visitenkarte kannst du nach Belieben bearbeiten, mit einem Klick in dein Telefonbuch des Smartphones abspeichern oder wieder löschen.
+          Und es kann losgehen: Networking Simple, Nimple.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--
 <div class="jumbotron explanatory01">
 <div class="media">
   <div class="pull-left">
@@ -45,7 +119,7 @@
     <img class="media-object" width="300" src="../img/explanatory/contacts.svg" alt="Kontakte-Icon">
   </div>
   <div class="media-body">
-    <h1 class="media-heading">3. Scanne andere QR-Codes mit Nimple ein</h1>
+    <h1 class="media-heading"></h1>
     <h2>
       In der Nimple-App kannst du auch den QR-Code einer kennengelernten Person einscannen. Mit nur einem Klick erhälst du über den QR-Code die elektronische Visitenkarte.<br><br>
       Die eingescannten Daten werden in Nimple gespeichert und können jederzeit verwendet werden.
@@ -75,6 +149,8 @@
   </div>
 </div>
 </div>
+-->
+
 
 <?php
   require('../inc/footer.php');

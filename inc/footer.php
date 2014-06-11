@@ -1,11 +1,11 @@
       <footer class="page-footer">
-
-            <ul class="pagination">
-                <li><a href="../terms/">AGB</a></li>
-                <li><a href="../disclaimer/">Datenschutzerklärung</a></li>
-                <li><a href="../imprint/">Impressum</a></li>
-            </ul>
-
+            <div class="container">
+                <ul class="pagination">
+                    <li><a href="../terms/">AGB</a></li>
+                    <li><a href="../disclaimer/">Datenschutzerklärung</a></li>
+                    <li><a href="../imprint/">Impressum</a></li>
+                </ul>
+            </div>
       </footer>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
