@@ -18,7 +18,7 @@
       <ul class="nav navbar-nav">
         <li><a href="../nimple/guidance.php">Anleitung</a></li>
         <li><a href="../faq">FAQ</a></li>
-        <!--<li><a href="../contact">Kontakt</a></li>-->
+        <li><a href="../contact">Kontakt</a></li>
       </ul>
 
     </div>

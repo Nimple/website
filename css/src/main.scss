@@ -503,6 +503,37 @@ a.linkedin {
 	}
 }
 
+
+.contact-form {
+	width: 60%;
+	float: left;
+	padding-top: 2%;
+
+	textarea { resize: vertical; }
+
+	.btn-default {
+		background: $magenta-light;
+		color: $white;
+		text-shadow: none;
+		font-weight: normal;
+		float: right;
+		-webkit-transition: all .8s ease;
+		   -moz-transition: all .8s ease;
+		    -ms-transition: all .8s ease;
+		     -o-transition: all .8s ease;
+		        transition: all .8s ease;
+
+		&:hover {
+			background: $magenta-dark;
+			-webkit-transition: all .2s ease;
+			   -moz-transition: all .2s ease;
+			    -ms-transition: all .2s ease;
+			     -o-transition: all .2s ease;
+			        transition: all .2s ease;
+		}
+	}
+}
+
 //------------------------------------------------------------------------------
 @media screen and (max-width: 1200px) {
 
