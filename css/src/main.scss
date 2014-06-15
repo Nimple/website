@@ -35,7 +35,6 @@ html {
 }
 
 body {
-	height: 100%;
 	width: 100%;
 	background: $white;
 }
@@ -267,7 +266,7 @@ a.linkedin {
 		.phone-frame-nexus {
 			display: none;
 			width: 90%;
-			height: 90%;
+			height: 50em;
 			background: url("../img/phone_frames/nexus5.png");
 			background-size: auto 80%;
 			background-repeat: no-repeat;
@@ -287,10 +286,10 @@ a.linkedin {
 			display: none;
 			background-color: red;
 			position: relative;
-			top: -90%;
-			left: 50%;
+			top: -50em;
+			left: 18em;
 			width: 80%;
-			height: 80%;
+			height: 48em;
 			z-index: -1;
 			background: url("../img/phone_frames/iPhone5s.png");
 			background-size: auto 80%;
