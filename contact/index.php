@@ -4,14 +4,7 @@
 
 <div class="container">
 	<h1>Kontakt</h1>
-
-	<p>
-		Hier cooler Text...
-	</p>
-
-	<hr>
-
-	<h4>Nachricht an <b><em>info@appstronauten.com</em></b></h4>
+	<h2>Ihre Nachricht an <b><em>info@appstronauten.com</em></b></h2>
 
 	<form class="contact-form" method="post" action="send.php">
 		<div class="form-group">

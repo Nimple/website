@@ -3,6 +3,7 @@
   require('inc/header.php');
 ?>
 
+<div class="container">
       <h1>Appstronauten</h1>
 
       <h2>Coming soon</h2>
@@ -12,6 +13,7 @@
         <li><a href="/disclaimer/">Datenschutzerkl&auml;rung</a></li>
         <li><a href="/imprint/">Impressum</a></li>
       </ul>
+</div>
 
 <?php
   require('inc/footer.php');
