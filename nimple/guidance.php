@@ -16,8 +16,8 @@
         <h2 class="numberCircle">1</h2>
         <h1>Deine elektronische Visitenkarte</h1>
         <p>
-          Gib deine Kontaktdaten ein und verbinde dich zu deinen sozialen Profilen auf <a class="facebook" href="http://www.facebook.com">facebook</a>, <a class="twitter" href="http://www.twitter.com">twitter</a>,
-          <a class="xing" href="http://www.xing.com">XING</a> und <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>. Deine Daten bleiben dabei nur auf deinem Gerät und werden nicht in der Cloud gespeichert.
+          Gib Deine Kontaktdaten ein und verbinde Dich einmalig mit Deinen sozialen Profilen auf <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
+          <a class="xing" href="http://www.xing.com">XING</a> und <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>. Deine Daten bleiben dabei nur auf Deinem Gerät und werden nicht in der Cloud gespeichert.
         </p>
       </div>
     </div>
@@ -32,9 +32,10 @@
         <h2 class="numberCircle">2</h2>
         <h1>Dein QR-Code</h1>
         <p>
-          Dein QR-Code wird automatisch aus deinen eingegebenen Daten generiert. Nur die eingegebenen Daten sind enthalten.
-          Zeige deinen QR-Code und Dein Gegenüber erhält deine Informationen. Wenn du soziale Profile hinterlegt hast, werden diese auch übermittelt.
-          Hat dein Gegenüber die Nimple-App noch nicht installiert, können dein Code auch mit einem handeslüblichen QR-Code-Reader abgescannt und deine Daten übertragen werden.
+          Dein QR-Code wird automatisch aus Deiner elektronischen Visitenkarte generiert.
+          Zeige Deinen QR-Code und Dein Gegenüber scannt Deine Kontaktinformationen mit seinem Smartphone ab.
+          Wenn Du soziale Profile hinterlegt hast, werden diese auch übermittelt. Du entscheidest, welche Daten übertragen werden. 
+          Hat Dein Gegenüber die Nimple-App noch nicht installiert, kann Dein Code auch mit einem handeslüblichen Barcode-Reader abgescannt und Deine Daten übertragen werden.
         </p>
       </div>
     </div>
@@ -47,10 +48,10 @@
       </div>
       <div class="pull-left">
         <h2 class="numberCircle">3</h2>
-        <h1>QR-Codes Scannen</h1>
+        <h1>Andere QR-Codes scannen</h1>
         <p>
-          Mit der Nimple-App kannst du QR-Codes von kennengelernten Person einscannen. Mit nur einem Klick erhälst du über den QR-Code deren elektronische Visitenkarten.
-          Die eingescannten Daten werden in Nimple gespeichert und können jederzeit verwendet werden.
+          Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Mit nur einem Klick erhälst Du über den QR-Code deren elektronische Visitenkarten.
+          Die eingescannten Daten werden in Nimple gespeichert und können jederzeit von Dir verwendet werden.
         </p>
       </div>
     </div>
@@ -63,11 +64,11 @@
       </div>
       <div class="pull-left">
         <h2 class="numberCircle">4</h2>
-        <h1>Sozial vernetzen</h1>
+        <h1>Kontaktdaten abspeichern und sozial vernetzen</h1>
         <p>
-          Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde dich direkt über <a class="facebook" href="http://www.facebook.com">facebook</a>, <a class="twitter" href="http://www.twitter.com">twitter</a>,
-          <a class="xing" href="http://www.xing.com">XING</a> oder <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a> mit deinem neuen Kontakt.
-          Die Visitenkarte kannst du nach Belieben bearbeiten, mit einem Klick in dein Telefonbuch des Smartphones abspeichern oder wieder löschen.
+          Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde Dich direkt über <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
+          <a class="xing" href="http://www.xing.com">XING</a> oder <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a> mit Deinem neuen Kontakt.
+          Die Visitenkarte kannst Du nach Belieben bearbeiten, mit einem Klick in das Telefonbuch Deines Smartphones abspeichern oder wieder löschen.
           Und es kann losgehen: Networking Simple, Nimple.
         </p>
       </div>
