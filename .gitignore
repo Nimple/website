@@ -1,1 +1,3 @@
-sublime/
+subl/
+bower_components/*
+node_modules/*

@@ -31,8 +31,7 @@
 		<script src="../js/vendor/jquery-1.11.0.min.js"></script>
 		<script async src="../js/vendor/fotorama.js"></script>
 		<script async src="../js/vendor/bootstrap.min.js"></script>
-		<script async src="../js/vendor/skrollr.min.js"></script>
-		<script async src="../js/main.js"></script>
+		<script async src="../js/main.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>

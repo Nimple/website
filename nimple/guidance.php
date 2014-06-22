@@ -32,7 +32,11 @@
         <h2 class="numberCircle">2</h2>
         <h1>Dein QR-Code</h1>
         <p>
+<<<<<<< HEAD
           Aus deiner elektronischen Visitenkarte wird automatisch ein QR-Code generiert. Lass Deinen QR-Code abscannen und Dein Gegenüber erhält direkt Deine Kontaktinformationen.
+=======
+          Aus Deiner elektronischen Visitenkarte wird automatisch ein QR-Code generiert. Lass Deinen QR-Code abscannen und Dein Gegenüber erhält automatisch Deine Kontaktinformationen.
+>>>>>>> FETCH_HEAD
           Wenn Du soziale Profile hinterlegt hast, werden diese auch übermittelt.
           Hat Dein Gegenüber die Nimple-App noch nicht installiert, kann Dein Code auch mit einem handeslüblichen Barcode-Reader abgescannt und Deine Daten übertragen werden.
         </p>
