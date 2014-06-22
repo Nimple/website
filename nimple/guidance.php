@@ -32,9 +32,8 @@
         <h2 class="numberCircle">2</h2>
         <h1>Dein QR-Code</h1>
         <p>
-          Dein QR-Code wird automatisch aus Deiner elektronischen Visitenkarte generiert.
-          Zeige Deinen QR-Code und Dein Gegenüber scannt Deine Kontaktinformationen mit seinem Smartphone ab.
-          Wenn Du soziale Profile hinterlegt hast, werden diese auch übermittelt. Du entscheidest, welche Daten übertragen werden. 
+          Aus deiner elektronischen Visitenkarte wird automatisch ein QR-Code generiert. Lass Deinen QR-Code abscannen und Dein Gegenüber erhält automatisch Deine Kontaktinformationen.
+          Wenn Du soziale Profile hinterlegt hast, werden diese auch übermittelt.
           Hat Dein Gegenüber die Nimple-App noch nicht installiert, kann Dein Code auch mit einem handeslüblichen Barcode-Reader abgescannt und Deine Daten übertragen werden.
         </p>
       </div>
@@ -50,7 +49,7 @@
         <h2 class="numberCircle">3</h2>
         <h1>Andere QR-Codes scannen</h1>
         <p>
-          Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Mit nur einem Klick erhälst Du über den QR-Code deren elektronische Visitenkarten.
+          Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Du erhälst mit nur einem Klick über den QR-Code andere elektronische Visitenkarten.
           Die eingescannten Daten werden in Nimple gespeichert und können jederzeit von Dir verwendet werden.
         </p>
       </div>
@@ -64,7 +63,7 @@
       </div>
       <div class="pull-left">
         <h2 class="numberCircle">4</h2>
-        <h1>Kontaktdaten abspeichern und sozial vernetzen</h1>
+        <h1>Kontaktdaten verwenden und sozial vernetzen</h1>
         <p>
           Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde Dich direkt über <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
           <a class="xing" href="http://www.xing.com">XING</a> oder <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a> mit Deinem neuen Kontakt.
