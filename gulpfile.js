@@ -6,7 +6,7 @@ var imagemin = require('gulp-imagemin');
 var sass     = require('gulp-sass')
 var minify   = require('gulp-minify-css');
 var clean    = require('gulp-clean');
-var ftp = require('gulp-ftp');
+var ftp      = require('gulp-ftp');
 
 //--- PATHS --------------------------------------------------------------------
 var paths = {
