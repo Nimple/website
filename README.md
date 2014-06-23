@@ -16,4 +16,4 @@
     - ```gulp css``` verarbeitet css
     - ```gulp js``` verarbeitet javascript
     - ```gulp img``` optimiert die Bilder in img/original fürs web
-    - ```gulp publish``` (kommt noch) published alles auf ftp
+    - ```gulp publish``` schiebt alle wichtigen files auf unseren ftp-server unter */_beta*

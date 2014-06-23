@@ -19,8 +19,17 @@ var paths = {
 	css_src: './css/src/*.scss',
 	css_dest: './css/',
 
-	publish: [	'./index.php',
-				'./nimple/**/*',
+	publish: [	'!./css/src/*',
+				'!./img/original/**/*',
+				'!./js/src/*',
+				'!./bower_components/**/*',
+				'!./node_modules/**/*',
+				'!./subl/*',
+				'!./.gitignore',
+				'!./package.json',
+				'!./README.md',
+				'!./gulpfile.js',
+				'./**/*',
 			]
 };
 
@@ -57,13 +66,13 @@ gulp.task('img', function() {
 });
 
 gulp.task('publish', function () {
-    return gulp.src(paths.publish)
-        .pipe(ftp({
-            host: 'ftp.appstronauten.com',
-            remotePath: '/webseiten/appstronauten/_beta',
-            user: '319069-ftp',
-            pass: '00414739nimpleftp'
-        }));
+	gulp.src(paths.publish)
+		.pipe(ftp({
+			host: 'ftp.appstronauten.com',
+			remotePath: '/webseiten/appstronauten/_beta/',
+			user: '319069-ftp',
+			pass: '00414739nimpleftp'
+		}));
 });
 
 
