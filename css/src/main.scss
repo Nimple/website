@@ -168,6 +168,10 @@ section {
 	    font: 1.6em Arial, sans-serif;
 	}
 
+	.pull-left img {
+		width: 100%;
+	}
+
 	.pull-left:nth-of-type(1) {
 		padding: 1.5%;
 	}
@@ -187,26 +191,31 @@ section {
 	}
 
 	.guide01 {
+		background-image: url("../img/guidance/guidance-01.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: 50% auto;
 	}
 
 	.guide02 {
+		background-image: url("../img/guidance/guidance-02.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: 50% auto;
 	}
 
 	.guide03 {
-		background: url("../img/guidance/guidance-03.jpg");
+		background-image: url("../img/guidance/guidance-03.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		background-position: 50% auto;
 	}
 
 	.guide04 {
-
+		background-image: url("../img/guidance/guidance-04.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 50% auto;
 	}
 
 	.container h1 {
@@ -683,7 +692,7 @@ section {
 }
 
 .guidance {
-	font-size: 80%;
+	font-size: 70%;
 
 	.numberCircle {
 	    border-radius: 50%;
@@ -703,20 +712,15 @@ section {
 	}
 
 	.pull-left:nth-of-type(1) {
-		padding: 1.5%;
-		width: 100%;
-
-		img {
-			width: 20%;
-		}
+		display: none;
 	}
 
 	.pull-left:nth-of-type(2) {
-		$bgr-white: rgba(255, 255, 255, .95);
+		$bgr-white: rgba(255, 255, 255, .90);
 
 		float: right;
-		padding: 3% 5%;
-		margin-top: 2%;
+		padding: 1% 5%;
+		margin-top: 5%;
 		width: 80%;
 		background: $bgr-white;
 		border-radius: 1em;

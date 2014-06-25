@@ -4,7 +4,7 @@ if(isset($_POST['mail'])) {
     echo "TEST";
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "guido@appstronauten.com";
+    $email_to = "info@appstronauten.com";
      
     $email_subject = "[Nimple.de Web Form] ";
      
@@ -64,12 +64,11 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
- 
-<!-- place your own success html below -->
 
-<h1>Thank you for contacting us. We will be in touch with you very soon.</h1>
+<h1>Vielen Dank für deine Nachricht.</h1>
 
 <?php
 }
+header("Location: http://www.appstronauten.com/contact");
 die();
 ?>

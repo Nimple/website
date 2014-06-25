@@ -1,6 +1,6 @@
 {
   "name": "appstronauten-website",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Webseite für die Appstronauten GbR und Nimple",
   "main": "gulpfile.js",
   "dependencies": {
@@ -17,10 +17,16 @@
     "lodash.bind": "~2.4.1",
     "lodash.createcallback": "~2.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mustache": "~0.8.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/appstronauten/appstronauten-website.git"
   },
-  "author": "Guido Schmidt"
+  "author": "Guido Schmidt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }

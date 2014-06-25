@@ -65,11 +65,21 @@ gulp.task('img', function() {
 		.pipe(gulp.dest(paths.images_dest));
 });
 
-gulp.task('publish', function () {
+gulp.task('publish_beta', function () {
 	gulp.src(paths.publish)
 		.pipe(ftp({
 			host: 'ftp.appstronauten.com',
 			remotePath: '/webseiten/appstronauten/_beta/',
+			user: '319069-ftp',
+			pass: '00414739nimpleftp'
+		}));
+});
+
+gulp.task('publish_release', function () {
+	gulp.src(paths.publish)
+		.pipe(ftp({
+			host: 'ftp.appstronauten.com',
+			remotePath: '/webseiten/appstronauten/',
 			user: '319069-ftp',
 			pass: '00414739nimpleftp'
 		}));

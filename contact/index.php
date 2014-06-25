@@ -4,20 +4,25 @@
 
 <div class="container">
 	<h1>Kontakt</h1>
-	<h2>Ihre Nachricht an <b><em>info@appstronauten.com</em></b></h2>
+
+	<p>
+		Hast Du eine Frage zu Nimple oder möchtest du uns Feedback geben? Dann fülle bitte das unten stehende Formular aus und wir werden uns so bald wie möglich bei Dir melden.
+		<br>
+		Bitte lese zunächst die <a href="../faq/">FAQ (Frequently Asked Questions)</a>, bevor Du eine Supportanfrage sendest.
+	</p>
 
 	<form class="contact-form" method="post" action="send.php">
 		<div class="form-group">
 			<div class="input-group">
 				<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-				<input name="name" type="text" class="form-control" placeholder="Ihr Name">
+				<input name="name" type="text" class="form-control" placeholder="Dein Name">
 			</div>
 		</div>
 
 		<div class="form-group">
 			<div class="input-group">
 				<span class="input-group-addon"><b>@</b></span>
-				<input name="mail" type="text" class="form-control" placeholder="Ihre E-Mail Adresse">
+				<input name="mail" type="text" class="form-control" placeholder="Deine E-Mail Adresse">
 			</div>
 		</div>
 
@@ -29,7 +34,7 @@
 		</div>
 
 		<div class="form-group">
-			<textarea name="message" class="form-control" id="message" placeholder="Ihre Nachricht an uns" rows="10"></textarea>
+			<textarea name="message" class="form-control" id="message" placeholder="Deine Nachricht an uns" rows="10"></textarea>
 		</div>
 
 		<!-- Form actions -->
