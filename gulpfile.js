@@ -86,6 +86,13 @@ gulp.task('publish_release', function () {
 });
 
 
+gulp.task('watch', function() {
+	gulp.watch('css/src/*', ['css'], function(event) {
+		console.log(event.type);
+	});
+	gulp.watch('js/src/*', ['js']);
+});
+
 gulp.task('default', ['js', 'css', 'img'], function() {
 
 });

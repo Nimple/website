@@ -29,8 +29,11 @@
 
 		<script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<script src="../js/vendor/jquery-1.11.0.min.js"></script>
-		<script async src="../js/vendor/fotorama.js"></script>
-		<script async src="../js/vendor/bootstrap.min.js"></script>
+		<script src="../js/vendor/fotorama.js"></script>
+		<script src="../js/vendor/mustache.js"></script>
+		<script src="../js/vendor/bootstrap.min.js"></script>
+		<script src="../js/vendor/jquery.velocity.min.js"></script>
+		<script src="../js/vendor/velocity.ui.js"></script>
 		<script async src="../js/main.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

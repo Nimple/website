@@ -6,7 +6,7 @@
 	<div class="container">
 		<!-- left side -->
 		<div class="left-side">
-			<div class="media">
+			<div id="mainLogo" class="media">
 				<div class="pull-left">
 					<img class="media-object" id="logo" src="../img/logos/nimple.png" alt="Nimple Logo">
 				</div>

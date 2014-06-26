@@ -74,6 +74,7 @@ section {
 }
 
 .navbar {
+	display: none;
 	width: 100%;
 	background: $magenta-dark;
 	border-bottom: 0;
@@ -152,20 +153,20 @@ section {
 	height: 100%;
 
 	.numberCircle {
-	    border-radius: 50%;
-	    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+		border-radius: 50%;
+		behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 		
 		float: left;
 
-	    width: 25px;
-	    height: 25px;
-	    padding: 12px;
-	    margin-right: 2%;
-	    
-	    border: 2px solid $magenta-dark;
-	    text-align: center;
-	    font-weight: bold;
-	    font: 1.6em Arial, sans-serif;
+		width: 25px;
+		height: 25px;
+		padding: 12px;
+		margin-right: 2%;
+		
+		border: 2px solid $magenta-dark;
+		text-align: center;
+		font-weight: bold;
+		font: 1.6em Arial, sans-serif;
 	}
 
 	.pull-left img {
@@ -187,6 +188,7 @@ section {
 	}
 
 	.container {
+		display: block;
 		width: 100%;
 	}
 
@@ -251,6 +253,7 @@ a.linkedin {
 	width: 80%;
 	height: 100%;
 	margin-bottom: 10%;
+	display: none;
 }
 
 .page-header {
@@ -434,19 +437,19 @@ a.linkedin {
 			border-bottom: 1px solid transparent;
 			-webkit-transition: all .5s ease-out;
 			   -moz-transition: all .5s ease-out;
-			    -ms-transition: all .5s ease-out;
-			     -o-transition: all .5s ease-out;
-			        transition: all .5s ease-out;
+				-ms-transition: all .5s ease-out;
+				 -o-transition: all .5s ease-out;
+					transition: all .5s ease-out;
 
-		        &:hover {
-		        	border-bottom: 1px solid $magenta-light;
-		        	color: $magenta-light;
+				&:hover {
+					border-bottom: 1px solid $magenta-light;
+					color: $magenta-light;
 					-webkit-transition: all .35s ease-out;
 					   -moz-transition: all .35s ease-out;
-					    -ms-transition: all .35s ease-out;
-					     -o-transition: all .35s ease-out;
-					        transition: all .35s ease-out;
-		        }
+						-ms-transition: all .35s ease-out;
+						 -o-transition: all .35s ease-out;
+							transition: all .35s ease-out;
+				}
 		}
 	}
 }
@@ -528,18 +531,24 @@ a.linkedin {
 		float: right;
 		-webkit-transition: all .8s ease;
 		   -moz-transition: all .8s ease;
-		    -ms-transition: all .8s ease;
-		     -o-transition: all .8s ease;
-		        transition: all .8s ease;
+			-ms-transition: all .8s ease;
+			 -o-transition: all .8s ease;
+				transition: all .8s ease;
 
 		&:hover {
 			background: $magenta-dark;
 			-webkit-transition: all .2s ease;
 			   -moz-transition: all .2s ease;
-			    -ms-transition: all .2s ease;
-			     -o-transition: all .2s ease;
-			        transition: all .2s ease;
+				-ms-transition: all .2s ease;
+				 -o-transition: all .2s ease;
+					transition: all .2s ease;
 		}
+	}
+}
+
+.articles{
+	.article {
+		display: none;
 	}
 }
 
@@ -695,20 +704,20 @@ section {
 	font-size: 70%;
 
 	.numberCircle {
-	    border-radius: 50%;
-	    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+		border-radius: 50%;
+		behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 		
 		float: left;
 
-	    width: 16px;
-	    height: 16px;
-	    padding: 8px;
-	    margin-right: 5%;
-	    
-	    border: 2px solid $magenta-dark;
-	    text-align: center;
-	    font-weight: bold;
-	    font: 1.6em Arial, sans-serif;
+		width: 16px;
+		height: 16px;
+		padding: 8px;
+		margin-right: 5%;
+		
+		border: 2px solid $magenta-dark;
+		text-align: center;
+		font-weight: bold;
+		font: 1.6em Arial, sans-serif;
 	}
 
 	.pull-left:nth-of-type(1) {
@@ -717,7 +726,6 @@ section {
 
 	.pull-left:nth-of-type(2) {
 		$bgr-white: rgba(255, 255, 255, .90);
-
 		float: right;
 		padding: 1% 5%;
 		margin-top: 5%;
@@ -767,6 +775,10 @@ section {
 	p {
 		font-size: 1.5em;
 	}
+}
+
+.contact-form {
+	width: 100%;
 }
 
 }

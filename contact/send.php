@@ -4,7 +4,7 @@ if(isset($_POST['mail'])) {
     echo "TEST";
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "info@appstronauten.com";
+    $email_to = "guido@appstronauten.com";
      
     $email_subject = "[Nimple.de Web Form] ";
      

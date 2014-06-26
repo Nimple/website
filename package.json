@@ -18,7 +18,6 @@
     "lodash.createcallback": "~2.4.1"
   },
   "devDependencies": {
-    "mustache": "~0.8.2"
   },
   "repository": {
     "type": "git",
