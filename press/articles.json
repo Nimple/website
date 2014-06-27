@@ -1,16 +1,16 @@
 {
 	"articles":[
 		{
-			"title":"Heading A",
-			"text":"Lorem ipsum Laboris velit elit mollit esse sed enim amet ex sint sed adipisicing cillum officia aliquip culpa nisi laborum qui."
-		}, 
+			"title":"Nimple bei Radio Regenbogen",
+			"text":"Lorem ipsum Laboris velit elit mollit esse sed enim amet ex sint sed adipisicing cillum officia aliquip culpa nisi laborum qui.",
+			"link": "",
+			"link-text": "Zu Radio Regenbogen"
+		},
 		{
-			"title":"Heading B",
-			"text":"Lorem ipsum Sed eiusmod esse Ut incididunt sunt tempor ad velit mollit commodo labore ad sit laboris in dolore voluptate culpa pariatur magna velit in in anim elit commodo minim aute deserunt do culpa mollit Duis deserunt."
-		}, 
-		{
-			"title":"Heading C",
-			"text":"Lorem ipsum Dolore enim tempor laborum ad."
+			"title":"Blabla",
+			"text":"Lorem ipsum Aute mollit voluptate deserunt proident velit nulla consectetur eu in pariatur consectetur exercitation aute dolor ullamco Ut exercitation id sed tempor est consequat ut consectetur ea nisi enim consequat magna aute.",
+			"link": "",
+			"link-text": "Zur Zeitung"
 		}
 	]
 }

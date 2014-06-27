@@ -1,7 +1,0 @@
-<div>
-	<h1>{{title}}</h1>
-	<p>
-		{{text}}
-	</p>
-	<a href="">Weiter lesen</a>
-</div>

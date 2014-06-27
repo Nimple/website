@@ -546,7 +546,9 @@ a.linkedin {
 	}
 }
 
-.articles{
+#articles{
+	width: 60%;
+
 	.article {
 		display: none;
 	}
@@ -778,6 +780,10 @@ section {
 }
 
 .contact-form {
+	width: 100%;
+}
+
+#articles{
 	width: 100%;
 }
 
