@@ -547,10 +547,51 @@ a.linkedin {
 }
 
 #articles{
+	padding-top: 2%;
 	width: 60%;
 
 	.article {
 		display: none;
+
+		.audio {
+			width: 30%;
+		}
+
+		img {
+			border: 10px solid white;
+			min-width: 30%;
+			width: 50%;
+			max-width: 100%;
+			-moz-box-shadow    : 0 1px 2px $black-alpha20;
+			-webkit-box-shadow : 0 1px 2px $black-alpha20;
+			box-shadow         : 0 1px 2px $black-alpha20;
+		}
+
+		h1 {
+			padding-top: 0.5%;
+			margin-top: 0;
+		}
+
+		h4 {
+			font-weight: 100;
+			font-size: 100%;
+			color: $magenta-light;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		.text {
+			padding-top: 2%;
+		}
+
+		.extern-link {
+			float: right;
+			margin: 1% 0 3% 0;
+			&:after {
+				clear: right;
+			}
+		}
+
 	}
 }
 
@@ -785,6 +826,25 @@ section {
 
 #articles{
 	width: 100%;
+
+	.article {
+
+		h1 {
+			font-size: 120%;
+		}
+
+		.audio {
+			width: 100%;
+		}
+
+		img {
+			width: 100%;
+			-moz-box-shadow    : 0 1px 2px $black-alpha20;
+			-webkit-box-shadow : 0 1px 2px $black-alpha20;
+			box-shadow         : 0 1px 2px $black-alpha20;
+		}
+
+	}
 }
 
 }

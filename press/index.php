@@ -4,7 +4,6 @@
 
 <div class="container">
 	<h1>Presse</h1>
-	<h2>Nimple in den Medien</h2>
 
 	<div id="articles">
 	</div>
@@ -17,11 +16,30 @@
 
 <script id="article-template" type="text/template">
 <div class="article">
+
+	<h4><span class="glyphicon glyphicon-time"></span>  {{date}}</h4>
 	<h1>{{title}}</h1>
-	<p>
+
+	{{#image}}
+		<img src={{image}}>
+	{{/image}}
+	
+	<p class="text">
 		{{text}}
 	</p>
-	<a href="{{link}}">{{link-text}}</a>
+
+	{{#audio-file}}
+		<br>
+		<audio controls class="audio">
+			<source src={{audio-file}} type="audio/mp3">
+			Dein Browser unterstützt leider keine Audio-Datien. Wir empfehlen dir <a href="" target="_blank">Google Chrome</a>.
+		</audio>
+		<br>
+	{{/audio-file}}
+
+	<a class="extern-link" href="{{link}}">{{link-text}}</a>
+	<br>
+	<br>
 	<hr>
 </div>
 </script>

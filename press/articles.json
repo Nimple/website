@@ -1,16 +1,13 @@
 {
-	"articles":[
+	"articles": [
 		{
+			"date": "10. Juni 2014",
 			"title":"Nimple bei Radio Regenbogen",
 			"text":"Lorem ipsum Laboris velit elit mollit esse sed enim amet ex sint sed adipisicing cillum officia aliquip culpa nisi laborum qui.",
 			"link": "",
-			"link-text": "Zu Radio Regenbogen"
-		},
-		{
-			"title":"Blabla",
-			"text":"Lorem ipsum Aute mollit voluptate deserunt proident velit nulla consectetur eu in pariatur consectetur exercitation aute dolor ullamco Ut exercitation id sed tempor est consequat ut consectetur ea nisi enim consequat magna aute.",
-			"link": "",
-			"link-text": "Zur Zeitung"
+			"link-text": "Zu Radio Regenbogen",
+			"audio-file": "../audio/nimple_radio-regenbogen.mp3",
+			"image": "../img/photos/radio-regenbogen.jpg"
 		}
 	]
 }
