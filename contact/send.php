@@ -1,8 +1,6 @@
 <?php
 
-if(isset($_POST['mail'])) {
-    echo "TEST";
-     
+if(isset($_POST['mail'])) {     
     // CHANGE THE TWO LINES BELOW
     $email_to = "guido@appstronauten.com";
      
@@ -10,11 +8,12 @@ if(isset($_POST['mail'])) {
      
      
     function died($error) {
+        header("Status: 301 Moved Permanently");
+        header("Location: ./index.php?". $_SERVER['QUERY_STRING']);
         // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
+        echo "Es tut uns leid, es gab wohl Fehler während der Übertragung. <br>";
+        echo $error."<br><br>";
+        echo "Bitte ändere das und versuche es noch einmal.<br><br>";
         die();
     }
      
@@ -23,7 +22,7 @@ if(isset($_POST['mail'])) {
         !isset($_POST['mail']) ||
         !isset($_POST['subject']) ||
         !isset($_POST['message']) ) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+        died('Es ist wohl ein Fehler passiert. Bitte versuche es später noch einmal.');
     }
      
     $name = $_POST['name']; // required
@@ -34,14 +33,14 @@ if(isset($_POST['mail'])) {
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'Die Email-Adresse di du eingegeben hast, scheint nicht korrekt zu sein.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
   if(!preg_match($string_exp,$name)) {
-    $error_message .= 'The Name you entered does not appear to be valid.<br />';
+    $error_message .= 'Bitte gib einen richtigen Namen an.<br />';
   }
   if(!preg_match($string_exp,$subject)) {
-    $error_message .= 'The Subject you entered does not appear to be valid.<br />';
+    $error_message .= 'Bitte gib einen richtigen Betreff an.<br />';
   }
   if(strlen($error_message) > 0) {
     died($error_message);
