@@ -1,13 +1,21 @@
 {
 	"articles": [
 		{
-			"date": "10. Juni 2014",
-			"title":"Nimple bei Radio Regenbogen",
-			"text":"Lorem ipsum Laboris velit elit mollit esse sed enim amet ex sint sed adipisicing cillum officia aliquip culpa nisi laborum qui.",
-			"link": "",
-			"link-text": "Zu Radio Regenbogen",
+			"date": "25th June 2014",
+			"title":"Nimple at netzwelt.de",
+			"text":"The name combines networking and simple...",
+			"link": "http://www.netzwelt.de/apps/12361-nimple.html",
+			"link-text": "netzwelt.de",
+			"image": "../img/photos/2014-06-25_netzwelt.png"
+		}
+		{
+			"date": "10th June 2014",
+			"title":"Nimple at Radio Regenbogen",
+			"text":"A radio interview about Nimple - Networking Simple...",
+			"link": "http://www.regenbogen.de/shows/87/pfeffer-und-schoenberger",
+			"link-text": "Radio Regenbogen",
 			"audio-file": "../audio/nimple_radio-regenbogen.mp3",
-			"image": "../img/photos/radio-regenbogen.jpg"
+			"image": "../img/photos/2014-06-10_radio_regenbogen.jpg"
 		}
 	]
 }

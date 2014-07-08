@@ -32,7 +32,8 @@
 		<br>
 		<audio controls class="audio">
 			<source src={{audio-file}} type="audio/mp3">
-			Dein Browser unterstützt leider keine Audio-Datien. Wir empfehlen dir <a href="" target="_blank">Google Chrome</a>.
+			2a8-45t
+			Your browser does not support audio files. We recommend <a href="http://www.google.de/intl/de/chrome/browser/" target="_blank">Google Chrome</a>.
 		</audio>
 		<br>
 	{{/audio-file}}
