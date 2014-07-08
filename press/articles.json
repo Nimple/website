@@ -1,0 +1,26 @@
+{
+	"articles": [
+		{
+			"date": "10. Juni 2014",
+			"title":"Nimple auf netzwelt.de",
+			"text":"Stellen Sie sich vor, Sie treffen im Schwimmbad nette Leute, sie tauschen die Namen aus und wollen sich später auch auf Facebook connecten. 
+			Doch wenn Sie einen Zahlendreher in der Handynummer haben, ist der nette Kontakt nur sehr schwer ausfindig zu machen, wenn er oder sie z.B. Thomas Müller oder Tanja Meyer heißt. Auf Facebook & Co. gibt es diese und andere 'Allerweltsnamen' zu hunderten.
+			Sebastian Lang aus Altlußheim hat deshalb mit drei Freunden eine App entwickelt, die das Tauschen von Kontaktdaten ganz einfach und vor allem auch schnell macht. Die App heißt 'Nimple', eine Mischung aus Networking und Simple. Sebastian hat uns erklärt, wie die App funktioniert:",
+			"link": "http://www.netzwelt.de/apps/12361-nimple.html",
+			"link-text": "Zu Radio Regenbogen",
+			"audio-file": "../audio/nimple_radio-regenbogen.mp3",
+			"image": "../img/photos/radio-regenbogen.jpg"
+		}
+		{
+			"date": "10. Juni 2014",
+			"title":"Nimple bei Radio Regenbogen",
+			"text":"Stellen Sie sich vor, Sie treffen im Schwimmbad nette Leute, sie tauschen die Namen aus und wollen sich später auch auf Facebook connecten. 
+			Doch wenn Sie einen Zahlendreher in der Handynummer haben, ist der nette Kontakt nur sehr schwer ausfindig zu machen, wenn er oder sie z.B. Thomas Müller oder Tanja Meyer heißt. Auf Facebook & Co. gibt es diese und andere 'Allerweltsnamen' zu hunderten.
+			Sebastian Lang aus Altlußheim hat deshalb mit drei Freunden eine App entwickelt, die das Tauschen von Kontaktdaten ganz einfach und vor allem auch schnell macht. Die App heißt 'Nimple', eine Mischung aus Networking und Simple. Sebastian hat uns erklärt, wie die App funktioniert:",
+			"link": "http://www.regenbogen.de/shows/87/pfeffer-und-schoenberger",
+			"link-text": "Zu Radio Regenbogen",
+			"audio-file": "../audio/nimple_radio-regenbogen.mp3",
+			"image": "../img/photos/radio-regenbogen.jpg"
+		}
+	]
+}
