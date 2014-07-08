@@ -46,23 +46,21 @@
 			<div class="clear-fix"></div>
 
 			<section>
-				Handynummern und Visitenkarten abtippen oder mühsames Kontakte-Suchen in sozialen Netzen war gestern. 
-				Die Nimple-App ermöglicht es mit einem Klick Kontaktdaten jeglicher Art über einen QR-Code weiterzugeben.
-				<br><br>
-				Ein alltägliches Szenario – <b>Du lernst neue Leute auf einer Party, Messe, Geschäftsreise 
-				oder im Büro kennen</b> und willst <b>Kontaktdaten austauschen:</b><br><br>
+				Nimple - Networking Simple is much the same as telepathy, just simpler.<br><br>
+
+				Imagine. You meet somebody at a party, trade show, in office or somewhere else and you want to <b>share contact information</b>.<br><br>
 				<ul>
-					<li><b>Du hast keine Visitenkarte zur Hand?</b></li>
-					<li><b>Willst Dich gerne auch über soziale Netze wie Facebook und XING verbinden?</b></li>
-					<li><b>Du möchtest verschiedenen Personen auch unterschiedliche Kontaktdaten geben?</b></li>
-					<li><b>Dir ist das zu aufwendig?</b></li>
+					<li><b>expensive?</b></li>
+					<li><b>no business card with you?</b></li>
+					<li><b>you'd like to connect via social networks?</b></li>
+					<li><b>you'd like to share different contact information with different persons?</b></li>
 				</ul>
 				<br>
-				Die Nimple-App <b>erleichtert und revolutioniert den Austausch von Kontaktdaten</b>. Mittels QR-Code kannst du Deine Wunschdaten inklusive sozialer
-				Profile mit einem Klick vom eigenen Smartphone an ein anderes übermitteln. Lästiges Abtippen von Visitenkarten 
-				oder lange Profilsuche auf Facebook gehören damit der Vergangenheit an.
+				In that case the Nimple app is the right thing for you.<br><br>
+				The Nimple app enables you and your contacts to exchange contact information via your <b>Nimple-Code (QR-Code)</b>. You can connect directly via social networks. If your contact hasn’t got the Nimple app, he can use <b>an usual barcode reader</b> to get your contact information.<br><br>
+				Your personal information is <b>saved only on your device</b>. There is no synchronization with any cloud-system.<br><br>
 				<br><br>
-				<span class="catchphrase"><b>Networking Simple mit Nimple!</b></span>
+				<span class="catchphrase"><b>Don’t waste time for unnecessary search and network simple, Nimple.</b></span>
 			</section>
 
 		</div>

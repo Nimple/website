@@ -11,9 +11,9 @@ if(isset($_POST['mail'])) {
         header("Status: 301 Moved Permanently");
         header("Location: ./index.php?". $_SERVER['QUERY_STRING']);
         // your error code can go here
-        echo "Es tut uns leid. Es gab wohl Fehler während der Übertragung. <br>";
+        echo "Sorry, there was probably an error durring the transmission. <br>";
         echo $error."<br><br>";
-        echo "Bitte versuche es noch einmal.<br><br>";
+        echo "Please try it again.<br><br>";
         die();
     }
      
@@ -22,7 +22,7 @@ if(isset($_POST['mail'])) {
         !isset($_POST['mail']) ||
         !isset($_POST['subject']) ||
         !isset($_POST['message']) ) {
-        died('Es ist wohl ein Fehler passiert. Bitte versuche es später noch einmal.');
+        died('Sorry, there was an error. Please try it again later.');
     }
      
     $name = $_POST['name']; // required
@@ -33,14 +33,14 @@ if(isset($_POST['mail'])) {
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= 'Die eingegebene Email-Adresse, scheint nicht korrekt zu sein.<br />';
+    $error_message .= 'There is a problem with the entered e-mail address.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
   if(!preg_match($string_exp,$name)) {
-    $error_message .= 'Bitte gib einen richtigen Namen an.<br />';
+    $error_message .= 'Please enter a right name.<br />';
   }
   if(!preg_match($string_exp,$subject)) {
-    $error_message .= 'Bitte gib einen richtigen Betreff an.<br />';
+    $error_message .= 'Please enter a right subject.<br />';
   }
   if(strlen($error_message) > 0) {
     died($error_message);
@@ -64,7 +64,7 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
 
-<h1>Vielen Dank für deine Nachricht.</h1>
+<h1>Thank you for your message.</h1>
 
 <?php
 }

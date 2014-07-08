@@ -2,7 +2,7 @@
 
 if(isset($_POST['mail'])) {     
     // CHANGE THE TWO LINES BELOW
-    $email_to = "info@appstronauten.com";
+    $email_to = "guido@appstronauten.com";
      
     $email_subject = "[Nimple.de Web Form] ";
      
@@ -11,9 +11,9 @@ if(isset($_POST['mail'])) {
         header("Status: 301 Moved Permanently");
         header("Location: ./index.php?". $_SERVER['QUERY_STRING']);
         // your error code can go here
-        echo "Es tut uns leid. Es gab wohl Fehler während der Übertragung. <br>";
+        echo "Es tut uns leid, es gab wohl Fehler während der Übertragung. <br>";
         echo $error."<br><br>";
-        echo "Bitte versuche es noch einmal.<br><br>";
+        echo "Bitte ändere das und versuche es noch einmal.<br><br>";
         die();
     }
      
@@ -33,7 +33,7 @@ if(isset($_POST['mail'])) {
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= 'Die eingegebene Email-Adresse, scheint nicht korrekt zu sein.<br />';
+    $error_message .= 'Die Email-Adresse di du eingegeben hast, scheint nicht korrekt zu sein.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
   if(!preg_match($string_exp,$name)) {

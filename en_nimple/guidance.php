@@ -14,10 +14,10 @@
 			</div>
 			<div class="pull-left">
 				<h2 class="numberCircle">1</h2>
-				<h1>Deine digitale Visitenkarte</h1>
+				<h1>Your digital card</h1>
 				<p>
-					Gib Deine Kontaktdaten ein und verbinde Dich einmalig mit Deinen sozialen Profilen auf <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
-					<a class="xing" href="http://www.xing.com">XING</a> und <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>. Deine Daten bleiben dabei nur auf Deinem Gerät und werden nicht in der Cloud gespeichert.
+					Just enter once your contact information and connect to your social profiles like <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
+					<a class="xing" href="http://www.xing.com">XING</a> and <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>. Your personal information is saved only on your device. There is no synchronization with any cloud-system.
 				</p>
 			</div>
 		</div>
@@ -30,11 +30,11 @@
 			</div>
 			<div class="pull-left">
 				<h2 class="numberCircle">2</h2>
-				<h1>Dein QR-Code</h1>
+				<h1>Your QR code</h1>
 				<p>
-					Aus deiner digitalen Visitenkarte wird automatisch ein QR-Code generiert. Lass Deinen QR-Code abscannen und Dein Gegenüber erhält direkt Deine Kontaktinformationen.
-					Wenn Du soziale Profile hinterlegt hast, werden diese auch übermittelt.
-					Hat Dein Gegenüber die Nimple-App noch nicht installiert, kann Dein Code auch mit einem handeslüblichen Barcode-Reader abgescannt und Deine Daten übertragen werden.
+					A QR code is generated out of your digital card. Let someone scan your QR code and your contact gets directly your contact information.
+					If you have added social profiles, they will be transmitted, too.
+					If your contact hasn’t got the Nimple app, he can use <b>an usual barcode reader</b> to get your contact information.
 				</p>
 			</div>
 		</div>
@@ -47,10 +47,10 @@
 			</div>
 			<div class="pull-left">
 				<h2 class="numberCircle">3</h2>
-				<h1>Andere QR-Codes scannen</h1>
+				<h1>Scan other QR codes</h1>
 				<p>
-					Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Du erhälst mit nur einem Klick über den QR-Code andere elektronische Visitenkarten.
-					Die eingescannten Daten werden in Nimple gespeichert und können jederzeit von Dir verwendet werden.
+					Within the Nimple app you can scan other QR codes. You will get other digital cards with one step.
+					The scanned contact information is saved in the Nimple app. You can use it at any time.
 				</p>
 			</div>
 		</div>
@@ -63,12 +63,12 @@
 			</div>
 			<div class="pull-left">
 				<h2 class="numberCircle">4</h2>
-				<h1>Kontaktdaten verwenden und sozial vernetzen</h1>
+				<h1>Use contact information and social networks</h1>
 				<p>
-					Klicke jederzeit auf eine erhaltene Visitenkarte und verbinde Dich direkt über <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
-					<a class="xing" href="http://www.xing.com">XING</a> oder <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a> mit Deinem neuen Kontakt.
-					Visitenkarten kannst Du bearbeiten, mit einem Klick in das Telefonbuch Deines Smartphones abspeichern oder wieder löschen.
-					Und es kann losgehen: Networking Simple, Nimple.
+					You can click on a received digital card at any time and make contact directly via <a class="facebook" href="http://www.facebook.com">Facebook</a>, <a class="twitter" href="http://www.twitter.com">Twitter</a>,
+					<a class="xing" href="http://www.xing.com">XING</a> or <a class="linkedin" href="http://www.linkedin.com">LinkedIn</a>.
+					You can edit cards, save them to your phone book with one click or delete them.
+					Ready to go: Networking Simple, Nimple.
 				</p>
 			</div>
 		</div>
