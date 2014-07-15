@@ -16,8 +16,18 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><?=$title ?></title>
-		<meta name="description" content="">
+		<meta name="description" content="Nimple ist eine kostenlose App für iPhone & Android mit der Du Kontaktdaten und soziale Netze mit einem Klick austauschen kannst.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Tags for Facebook-->
+		<meta property="og:image" content="http://www.appstronauten.com/img/photos/Facebook_Beitrag.png">
+		<meta property="og:title" content="Nimple-App revolutioniert Austausch von Kontaktdaten">
+		<meta property="og:site_name" content="Nimple - Networking Simple">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://www.nimple.de">
+		<meta property="og:description" content="Handynummern und Visitenkarten abtippen oder mühsames Kontakte-Suchen in sozialen Netzen war gestern. Durch Nimple kannst Du mit einem Klick Kontaktdaten und soziale Profile mit anderen Handys austauschen.">
+		<meta property="og:publisher" content="Nimple - Networking Simple">
+		<!-- End Tags for Facebook-->
 
 		<link rel="stylesheet" href="../css/vendor/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/vendor/bootstrap/bootstrap-theme.min.css">
