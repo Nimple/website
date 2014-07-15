@@ -1,9 +1,17 @@
 {
 	"articles": [
 		{
+			"date": "08. Juli 2014",
+			"title":"Nimple in der Roche in Deutschland",
+			"text":"Mannheim. ,Es war ein tolles Gefuhl, zu sehen, wie aus einer vagen Idee Wirklichkeit wird.' Sebastian Lang präsentiert voller Stolz seine selbst kreierte App ,Nimple'.",
+			"link": "../img/photos/2014-07-08_Nimple_Roche_Artikel.pdf",
+			"link-text": "Zum Artikel",
+			"image": "../img/photos/2014-07-08_Nimple_Roche_Foto.png"
+		},
+		{
 			"date": "25. Juni 2014",
 			"title":"Nimple auf netzwelt.de",
-			"text":"Der Name Nimple entspringt den Schlagwörtern Networking und Simple. Die App ist auf den Austausch von Kontaktdaten spezialisiert und versprich dabei einige sehr interessante Features. Nimple eignet sich für sämtliche Bereiche des täglichen Lebens, in denen Sie mit anderen Menschen in Kontakt treten. Seien es Messen, Tagungen, Fortbildungen oder auch Urlaube, Discobesuche oder Partys. Mit der Nimple App ist der Austausch von Kontaktdaten sehr komfortabel.",
+			"text":"Der Name Nimple entspringt den Schlagwörtern Networking und Simple. Die App ist auf den Austausch von Kontaktdaten spezialisiert und verspricht dabei einige sehr interessante Features. Nimple eignet sich für sämtliche Bereiche des täglichen Lebens, in denen Sie mit anderen Menschen in Kontakt treten. Seien es Messen, Tagungen, Fortbildungen oder auch Urlaube, Discobesuche oder Partys. Mit der Nimple App ist der Austausch von Kontaktdaten sehr komfortabel.",
 			"link": "http://www.netzwelt.de/apps/12361-nimple.html",
 			"link-text": "Zu netzwelt.de",
 			"image": "../img/photos/netzwelt.png"
