@@ -16,7 +16,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><?=$title ?></title>
+		<meta name="author" content="Appstronauten GbR, Germany">
+		<meta name="copyright" content="Appstronauten GbR, Germany">
+		<meta name="keywords" content="nimple.de, nimpleapp.com, Nimple, Networking, Simple, Networking Simple, Visitenkarten, App, Networking-App, Effizienz, Android, iPhone, Netzwerken, Kundenkontakt, Business Cards, Business, Soziale Netze">
 		<meta name="description" content="Nimple ist eine kostenlose App für iPhone & Android mit der Du Kontaktdaten und soziale Netze mit einem Klick austauschen kannst.">
+		<meta name="twitter:site" content="@Nimpleapp">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- Tags for Facebook-->
