@@ -1,5 +1,5 @@
 <?php
-  require('../inc/header.php');
+	require('../inc/header.php');
 ?>
 
 <div class="container">
@@ -11,7 +11,7 @@
 </div>
 
 <?php
-  require('../inc/footer.php');
+	require('../inc/footer.php');
 ?>
 
 <script id="article-template" type="text/template">
@@ -46,7 +46,7 @@
 
 <script>
 
-
+$(function () {
 	var animated = false;
 	var articles = [];
 
@@ -56,8 +56,9 @@
 		};
 	}
 
-	$.getJSON( "articles.json", function( data ) {
+	$.getJSON( "./articles.json", function( data ) {
 		var items = [];
+		console.log("Data:\n" +  data);
 		$.each( data.articles, function( key, value ) {
 			var template = $('#article-template').html();
 			var html = Mustache.to_html(template, value);
@@ -65,6 +66,5 @@
 		});
 		$('.article').velocity('transition.slideRightIn', {delay: 800, stagger: 500});
 	});
-
-
+});
 </script>
