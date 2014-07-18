@@ -1,8 +1,16 @@
 {
 	"articles": [
 		{
+			"date": "18. Juli 2014",
+			"title":"Nimple in der Wirtschaftszeitung 'econo'",
+			"text":"Visite ohne Karte. Eine neue Smartphone-Anwendung soll das Networking vereinfachen. Sie funktioniert offline und verspricht damit Datensicherheit.",
+			"link": "../docs/2014-07-18_Nimple_in_econo.pdf",
+			"link-text": "Zum Artikel",
+			"image": "../img/photos/2014-07-18_econo.png"
+		},
+		{
 			"date": "08. Juli 2014",
-			"title":"Nimple in der Roche Zeitung Deutschland",
+			"title":"Nimple in der Unternehmenszeitung 'Roche in Deutschland'",
 			"text":"Mannheim. ,Es war ein tolles Gefühl, zu sehen, wie aus einer vagen Idee Wirklichkeit wird.' Sebastian Lang präsentiert voller Stolz seine selbst kreierte App ,Nimple'. Der Roche-Mitarbeiter betreibt ein ungewöhnliches und spannendes Hobby: Zusammen mit drei Freunden entwickelte er eine nützliche Networking-Applikation fürs Handy.",
 			"link": "../docs/2014-07-08_Nimple_Roche_Artikel.pdf",
 			"link-text": "Zum Artikel",
