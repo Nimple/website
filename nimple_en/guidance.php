@@ -1,5 +1,5 @@
 <?php
-	require('../inc/header.php');
+	require('../inc_en/header.php');
 ?>
 
 <div class="fotorama"
@@ -153,5 +153,5 @@
 
 
 <?php
-	require('../inc/footer.php');
+	require('../inc_en/footer.php');
 ?>

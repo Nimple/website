@@ -16,13 +16,16 @@
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="../nimple/guidance.php">Guidance</a></li>
-				<li><a href="../faq">FAQ</a></li>
-				<li><a href="../contact">Contact</a></li>
-				<li><a href="../press">Press</a></li>
+				<li><a href="../nimple_en/guidance.php">Guidance</a></li>
+				<li><a href="../faq_en">FAQ</a></li>
+				<li><a href="../contact_en">Contact</a></li>
+				<li><a href="../press_en">Press</a></li>
 			</ul>
-
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a class="lang_selection" href="../nimple/">deutsch</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </nav>
-

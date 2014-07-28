@@ -1,5 +1,5 @@
 <?php
-	require('../inc/header.php');
+	require('../inc_en/header.php');
 ?>
 
 <header class="page-header">
@@ -86,5 +86,5 @@
 </header>
 
 <?php
-	require('../inc/footer.php');
+	require('../inc_en/footer.php');
 ?>

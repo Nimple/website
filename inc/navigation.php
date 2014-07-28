@@ -21,8 +21,20 @@
 				<li><a href="../contact">Kontakt</a></li>
 				<li><a href="../press">Presse</a></li>
 			</ul>
-
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a class="lang_selection" href="../nimple_en/">english</a>
+				</li>
+			</ul>
 		</div>
-	</div>
 </nav>
-
+<script>
+	$(function () {
+		$('.lang_selection').on('click', function() {
+			//alert(window.location.href);
+			var location = window.location.href;
+			var new_location = location.substring(0, location.length - 1) + "_en";
+			window.open(new_location,"_self")
+		})
+	});
+</script>

@@ -1,9 +1,9 @@
 <?php
-  require('../inc/header.php');
+  require('../inc_en/header.php');
 ?>
 
 <div class="container">
-	<h1>Presse</h1>
+	<h1>Press</h1>
 
 	<div id="articles">
 	</div>
@@ -11,7 +11,7 @@
 </div>
 
 <?php
-  require('../inc/footer.php');
+  require('../inc_en/footer.php');
 ?>
 
 <script id="article-template" type="text/template">

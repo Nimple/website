@@ -1,5 +1,5 @@
 <?php
-  require('../inc/header.php');
+  require('../inc_en/header.php');
 ?>
 
 <div class="container">
@@ -46,5 +46,5 @@
 </div>
 
 <?php
-  require('../inc/footer.php');
+  require('../inc_en/footer.php');
 ?>
