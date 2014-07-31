@@ -1,6 +1,14 @@
 {
 	"articles": [
 		{
+			"date": "25. Juli 2014",
+			"title":"Nimple in der 'com! professional'",
+			"text":"Die kostenlose Android- und iOS-App Nimple speichert und tauscht Kontaktdaten mit Hilfe von QR-Codes (www.nimple.de).",
+			"link": "../docs/2014-07-30_com!_Layout.PNG",
+			"link-text": "Zum Artikel",
+			"image": "../img/photos/2014-07-30_Nimple_in_der_com!.JPG"
+		},
+		{
 			"date": "18. Juli 2014",
 			"title":"Nimple in der Wirtschaftszeitung 'econo'",
 			"text":"Visite ohne Karte. Eine neue Smartphone-Anwendung soll das Networking vereinfachen. Sie funktioniert offline und verspricht damit Datensicherheit.",
