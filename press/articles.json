@@ -1,13 +1,21 @@
 {
 	"articles": [
 		{
+			"date": "22. August 2014",
+			"title":"Nimple in der Rheinpfalz",
+			"text":"Die digitale Visitenkarte. Sebastian Lang aus Altlußheim hat zusammen mit Freunden eine App zum raschen Austausch von Kontaktdaten entwickelt. Festnetznummer, Handynummer, E-Mail-Adresse, Facebook-Profil, Twitter-Konto, WhatsApp – in der Ära des Internet und des Smartphones bedeutet Austausch von Kontaktdaten längst nicht mehr, nur eine Telefonnummer weiterzugeben. Es ist viel komplizierter geworden. Zu kompliziert, findet Sebastian Lang. Deshalb hat der Wirtschaftsinformatiker aus Altlußheim mit Freunden eine App entwickelt, mit der sich persönliche Daten schnell und sicher austauschen lassen.",
+			"link": "../docs/2014-08-22_Nimple-Rheinpfalz.pdf",
+			"link-text": "Zum Artikel",
+			"image": "../img/photos/rheinpfalz.gif"
+		},
+		{
 			"date": "29. Juli 2014",
 			"title":"Nimple auf gsrn.de",
 			"text":"Absolvent des Studiengangs Information and Performance Mangement entwickelt elektronische Visitenkarte",
 			"link": "http://www.gsrn.de/4693/fuer-kreative-koepfe-ist-das-studium-erst-der-anfang/",
 			"link-text": "Zu gsrn.de",
 			"image": "../img/photos/gsrn.png"
-		},		
+		},
 		{
 			"date": "25. Juli 2014",
 			"title":"Nimple in der 'com! professional'",
