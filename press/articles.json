@@ -1,6 +1,23 @@
 {
 	"articles": [
 		{
+			"date": "04. September 2014",
+			"title":"Nimple im Test bei SWRinfo",
+			"text":"Im Test: Kontakte knüpfen mit der Mannheimer App Nimple. Eigentlich lernt man ja dauernd neue Leute kennen: mit denen will man dann meistens auch so schnell wie möglich in Kontakt treten, sei es über Facebook, Email, WhatsApp oder Xing. Die ganzen Kontaktdaten per Hand ins Smartphone einzuspeichern ist meistens ziemlich mühsam.",
+			"link": "http://swrinfo.tumblr.com/post/96534780457/im-test-kontakte-knupfen-mit-der-mannheimer-app",
+			"link-text": "Zu SWRinfo",
+			"audio-file": "../audio/swrinfo.mp3",
+			"image": "../img/photos/swrinfo.png"
+		}
+		{
+			"date": "01. September 2014",
+			"title":"Nimple in der Rhein-Neckar-Zeitung",
+			"text":"Die App Nimple: Die digitale Visitenkarte. Sebastian Lang und drei Freunde haben mit Nimple eine App zum Austausch von Kontaktdaten entwickelt.",
+			"link": "http://www.rnz.de/mannheim/00_20140901060000_110742617-Die-App-Nimple-Die-digitale-Visitenkarte.html",
+			"link-text": "Zu rnz.de",
+			"image": "../img/photos/rnz.png"
+		},
+		{
 			"date": "22. August 2014",
 			"title":"Nimple in der Rheinpfalz",
 			"text":"Die digitale Visitenkarte. Sebastian Lang aus Altlußheim hat zusammen mit Freunden eine App zum raschen Austausch von Kontaktdaten entwickelt. Festnetznummer, Handynummer, E-Mail-Adresse, Facebook-Profil, Twitter-Konto, WhatsApp – in der Ära des Internet und des Smartphones bedeutet Austausch von Kontaktdaten längst nicht mehr, nur eine Telefonnummer weiterzugeben. Es ist viel komplizierter geworden. Zu kompliziert, findet Sebastian Lang. Deshalb hat der Wirtschaftsinformatiker aus Altlußheim mit Freunden eine App entwickelt, mit der sich persönliche Daten schnell und sicher austauschen lassen.",
