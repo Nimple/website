@@ -49,7 +49,7 @@
 				<h2 class="numberCircle">3</h2>
 				<h1>Andere QR-Codes scannen</h1>
 				<p>
-					Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Du erhälst mit nur einem Klick über den QR-Code andere elektronische Visitenkarten.
+					Mit der Nimple-App kannst Du QR-Codes von kennengelernten Person einscannen. Du erhältst mit nur einem Klick über den QR-Code andere elektronische Visitenkarten.
 					Die eingescannten Daten werden in Nimple gespeichert und können jederzeit von Dir verwendet werden.
 				</p>
 			</div>
