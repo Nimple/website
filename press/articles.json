@@ -1,6 +1,15 @@
 {
 	"articles": [
 		{
+			"date": "06. September 2014",
+			"title":"Nimple im Interview auf der IFA bei digitalradio.de",
+			"text":"'Wir nähern uns einem Thema, dass wahrscheinlich viele Menschen beschäftigt, die hier ein und aus gehen und über das IFA-Gelände laufen. Nämlich die Jagd nach Visitenkarten. Und der Gag ist: ich habe meine Zuhause liegen lassen.'",
+			"link": "http://www.digitalradio.de",
+			"link-text": "Zu digitalradio.de",
+			"audio-file": "../audio/digitalradio.mp3",
+			"image": "../img/photos/digitalradio.jpg"
+		},
+		{
 			"date": "04. September 2014",
 			"title":"Nimple im Test bei SWRinfo",
 			"text":"Im Test: Kontakte knüpfen mit der Mannheimer App Nimple. Eigentlich lernt man ja dauernd neue Leute kennen: mit denen will man dann meistens auch so schnell wie möglich in Kontakt treten, sei es über Facebook, Email, WhatsApp oder Xing. Die ganzen Kontaktdaten per Hand ins Smartphone einzuspeichern ist meistens ziemlich mühsam.",
