@@ -1,6 +1,14 @@
 {
 	"articles": [
 		{
+			"date": "08. September 2014",
+			"title":"Nimple im Test bei appdeals.de",
+			"text":"AUSTAUSCH VON VIRTUELLEN VISITENKARTEN. Mit der App Nimple – Networking Simple können Kontaktdaten mit Hilfe eines QR-Codes einfach und schnell ausgetauscht werden. Das erspart lästiges Visitenkarten abtippen oder die Suche nach Kontakten in sozialen Netzen. Die App ist kostenfrei für die Betriebssysteme Android und iOS verfügbar.",
+			"link": "http://www.appdeals.de/wp/deals-news/news/neuvorstellungen/nimple-networking-simple/",
+			"link-text": "Zu appdeals.de",
+			"image": "../img/photos/appdeals.png"
+		},
+		{
 			"date": "06. September 2014",
 			"title":"Nimple im Interview auf der IFA bei digitalradio.de",
 			"text":"'Wir nähern uns einem Thema, dass wahrscheinlich viele Menschen beschäftigt, die hier ein und aus gehen und über das IFA-Gelände laufen. Nämlich die Jagd nach Visitenkarten. Und der Gag ist: ich habe meine Zuhause liegen lassen.'",
