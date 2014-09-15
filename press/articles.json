@@ -1,6 +1,14 @@
 {
 	"articles": [
 		{
+			"date": "15. September 2014",
+			"title":"Nimple in der IHK Rhein-Neckar",
+			"text":"Neue App für einfaches Networking. Man lernt Leute auf einer Party, Messe, Geschäftsreise oder im Büro kennen und will Kontaktdaten austauschen, hat aber keine Visitenkarte zur Hand? Hier hilft die neue App 'Nimple' der Appstronauten GbR aus Altlußheim.",
+			"link": "../docs/2014-09-15_IHK-Rhein-Neckar.pdf",
+			"link-text": "Zum Artikel",
+			"image": "../img/photos/ihk.jpg"
+		},
+		{
 			"date": "08. September 2014",
 			"title":"Nimple im Test bei appdeals.de",
 			"text":"AUSTAUSCH VON VIRTUELLEN VISITENKARTEN. Mit der App Nimple – Networking Simple können Kontaktdaten mit Hilfe eines QR-Codes einfach und schnell ausgetauscht werden. Das erspart lästiges Visitenkarten abtippen oder die Suche nach Kontakten in sozialen Netzen. Die App ist kostenfrei für die Betriebssysteme Android und iOS verfügbar.",
