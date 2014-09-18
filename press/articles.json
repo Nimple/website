@@ -1,6 +1,22 @@
 {
 	"articles": [
 		{
+			"date": "18. September 2014",
+			"title":"Nimple im Test bei AppTicker.de",
+			"text":"Nimple: Schnell und simpel Kontaktdaten austauchen. Mit der neuen Nimple App für das iPhone ist das Austauschen von digitalen Visitenkarten sehr simpel und schnell möglich. So können mit einem einzigen Nimple-Code gleich alle nötigen Kontaktinformationen übertragen werden und das auch dann, wenn der Gegenüber selber keine Nimple App installiert hat.",
+			"link": "http://www.appticker.de/de/news/2519/Nimple_Schnell_und_simpel_Kontaktdaten_austauchen.html",
+			"link-text": "Zu AppTicker.de",
+			"image": "../img/photos/appticker.jpg"
+		},
+		{
+			"date": "17. September 2014",
+			"title":"Nimple im Elevator Pitch bei Senkrechtstarter",
+			"text":"Visitenkarten braucht’s nicht mehr: Ein Mannheimer Start-up ersetzt die lästigen Kärtchen durch QR-Codes. Sebastian Lang von Nimple erklärt im Elevator Pitch, wie die App funktioniert.",
+			"link": "http://senkrechtstarter-blog.de/2014/09/digitale-visitenkarte-nimple/",
+			"link-text": "Zu Senkrechtstarter-blog.de",
+			"image": "../img/photos/senkrechtstarter.png"
+		},
+		{
 			"date": "15. September 2014",
 			"title":"Nimple in der IHK Rhein-Neckar",
 			"text":"Neue App für einfaches Networking. Man lernt Leute auf einer Party, Messe, Geschäftsreise oder im Büro kennen und will Kontaktdaten austauschen, hat aber keine Visitenkarte zur Hand? Hier hilft die neue App 'Nimple' der Appstronauten GbR aus Altlußheim.",
