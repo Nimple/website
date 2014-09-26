@@ -1,6 +1,14 @@
 {
 	"articles": [
 		{
+			"date": "23. September 2014",
+			"title":"Nimple im Interview bei deutsche-startups.de",
+			"text":"Kern unseres Start-ups ist eine Networking-App für Smartphones. Mit Nimple können über einen QR-Code Festnetznummer, Handynummer, E-Mail-Adresse, Facebook-Profil, Twitter-Konto, WhatsApp aus getauscht werden. Im Gründer-Kurzinterview Sebastian Lang über den Funktionsumfang, die Notwendigkeit einer starken Verbreitung der App und die Pläne für das kommende Jahr.",
+			"link": "http://www.deutsche-startups.de/2014/09/23/kern-unseres-start-ups-ist-eine-networking-app-fuer-smartphones/",
+			"link-text": "Zu deutsche-startups.de",
+			"image": "../img/photos/deutsche-startups.png"
+		},
+		{
 			"date": "18. September 2014",
 			"title":"Nimple im Test bei AppTicker.de",
 			"text":"Nimple: Schnell und simpel Kontaktdaten austauchen. Mit der neuen Nimple App für das iPhone ist das Austauschen von digitalen Visitenkarten sehr simpel und schnell möglich. So können mit einem einzigen Nimple-Code gleich alle nötigen Kontaktinformationen übertragen werden und das auch dann, wenn der Gegenüber selber keine Nimple App installiert hat.",
