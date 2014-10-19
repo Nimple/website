@@ -1,6 +1,13 @@
 {
 	"articles": [
 		{
+			"date": "18. Oktober 2014",
+			"title":"Nimple im Interview bei RPR1.",
+			"text":"'Die neue App heißt Nimple. Und zwar ist das jetzt die Ablösung für Visitenkarten. Da kann mit mit einem Klick nömlich seine Kontaktdaten austauschen.'",
+			"audio-file": "../audio/rpr1.mp3",
+			"image": "../img/photos/rpr1.png"
+		},
+		{
 			"date": "23. September 2014",
 			"title":"Nimple im Interview bei deutsche-startups.de",
 			"text":"Kern unseres Start-ups ist eine Networking-App für Smartphones. Mit Nimple können über einen QR-Code Festnetznummer, Handynummer, E-Mail-Adresse, Facebook-Profil, Twitter-Konto, WhatsApp aus getauscht werden. Im Gründer-Kurzinterview Sebastian Lang über den Funktionsumfang, die Notwendigkeit einer starken Verbreitung der App und die Pläne für das kommende Jahr.",
