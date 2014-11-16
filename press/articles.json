@@ -1,6 +1,14 @@
 {
 	"articles": [
 		{
+			"date": "15. November 2014",
+			"title":"Nimple im Test bei planetradio.",
+			"text":"'Stell dir mal vor Du triffst jemanden und willst ihm Deine Handynummer geben, und Deine E-Mail-Adresse, und Dein Facebook-Namen und so weiter. Die Daten alle selbst eintippen ist echt nicht mehr so cool. Stattdessen hilft Dir da jetzt eine App. Nimple heißt sie. Damit erstellst Du Dir einen QR-Code aus Deinen Kontaktdaten. Andere können den Code dann abscannen.'",
+			"link": "https://m.soundcloud.com/planetradio/nerd-navigator-nimple-kontaktdaten-per-qr-code-planetradiode",
+			"link-text": "Zum Beitrag",
+			"image": "../img/photos/planet.jpg"
+		},
+		{
 			"date": "18. Oktober 2014",
 			"title":"Nimple im Interview bei RPR1.",
 			"text":"'Die neue App heißt Nimple. Und zwar ist das jetzt die Ablösung für Visitenkarten. Da kann mit mit einem Klick nämlich seine Kontaktdaten austauschen.'",
